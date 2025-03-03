@@ -1,0 +1,1707 @@
+[
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "1. SCOPE",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "1. SCOPE"
+                ]
+            },
+            "page_content": "\nAPPLICATION REVISIONS APPROVALS\nNEXT ASSY PROJECT NO. ECN NO. REV DESCRIPTION DATE APPROVED\n13196 CO-0000075768 A PRODUCTION RELEASE 8/21/2017 VINCE LAI\nCO-0000094095 B RELEASE -014 9/25/2019 VINCE LAI\nCO-0000099694 . UPDATE PEAK LOAD\nC 2/17/2020 VINCE LAI\n. UPDATE LABEL DRAWING\nHP CONFIDENTIAL APPROVALS DATE\nTHIS DOCUMENT AND ANY\nDRAWN VINCE LAI 3/6/17\nASSOCIATED DATA CONTAIN\nRESTRICTED INFORMATION THAT CHECKED\nIS HP PROPERTY. DO NOT\nDSGN ENGR VINCE LAI 3/6/17\nDISCLOSE TO OR DUPLICATE FOR\nOTHERS EXCEPT AS AUTHORIZED ENG HERA+ 65W AC ADAPTER, nPFC 3Pin RC 4.5mm\nBY HP.\nMFG\nQA\nUNLESS OTHERWISE SPECIFIED,\nDIMENSIONS ARE IN INCHES SIZE DRAWING NO. REV\nLEGAL\n[MILLIMETERS]. TOLERANCES ARE: A\nAN AGENCY L25298 C\nGL\nFRACTIONS DECIMALS ES\n\uf0b1 1/32 .XX \uf0b1 .02 [0.5] \uf0b11\uf0b0 DO NOT SCALE DRAWING SUPPLEMENTS: EF,PDF SHEET 1 OF 24\n.XXX \uf0b1 .010 [0.25]\nTABLE OF CONTENTS\nSIZE DRAWING NO. REV\nA L25298 C\nDRAWN SCALE 1/1 SHEET 2 OF 24\nLIST OF FIGURES\nLIST OF TABLES\nSIZE DRAWING NO. REV\nA L25298 C\nDRAWN SCALE 1/1 SHEET 3 OF 24\nThis document defines the functional requirements for an enclosed 65 WATT SINGLE OUTPUT AC-TO-\nDC AC ADAPTER intended for worldwide use in Information Technology Equipment. The power supply\nunit shall be convection cooled.\nThe information in this document must be used in accordance with HP policies with regard to the use and\ndisclosure of HP Confidential information. Signed Confidential Disclosure Agreements (CDA\u2019s) must be on\nfile prior to the disclosure of this Document with any external supplier.\nThis specification defines the EPS (External Power Supply) requirements. The design of this product must\nfollow the supplier design guides (all suppliers), except where those guidelines conflict with the specified\nproduct requirements.\nThe HP part numbers directly influenced by this specification are defined in Table 1.\nThe EPS Model Numbers are identified in Table 1 The EPS manufacturer name and model name listed in\nthis document which is for AVLC (Approved Vendor List Candidate). The AVL (Approved Vendor List) firmed\nuntil production release.\nIn the event of a conflict between this specification and references cited herein, this specification shall take\nprecedence.\nTABLE 1\nREFERENCE TABLE\n|    | 0          | 1                          | 2         | 3          | 4        | 5            |\n|---:|:-----------|:---------------------------|:----------|:-----------|:---------|:-------------|\n|  0 | HP P/N     | DESCRIPTION                | ASSY CODE | SPARES P/N | RMN      | VENDOR P/N   |\n|  1 | L25298-001 | ADPTR 65W nPFC Smart 3P RC | HHRF      | 710412-001 | TPN-LA16 | PA-1650-20HL |\n|    |            | 4.5mm, Lite-On             |           |            |          |              |\n|  2 | L25298-002 | ADPTR 65W nPFC Smart 3P RC | HGRH      |            | TPN-CA16 | A065R157P    |\n|    |            | 4.5mm, Chiony              |           |            |          |              |\n|  3 | L25298-003 | ADPTR 65W nPFC Smart 3P RC | HHWL      |            | TPN-DA17 | ADP-65AE BA  |\n|    |            | 4.5mm, Delta               |           |            |          |              |\n|  4 | L25298-004 | ADPTR 65W nPFC Smart 3P RC | HGRN      |            | TPN-AA06 | ADH032-020G  |\n|    |            | 4.5mm, AcBel               |           |            |          |              |\n|  5 | L25298-014 | ADPTR 65W nPFC Smart 3P RC | JLJE      |            | TPN-AA06 | ADH032-022G  |\n|    |            | 4.5mm, AcBel               |           |            |          |              |",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "2.1 APPLICABLE DOCUMENTS",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "2. REFERENCE DOCUMENTS",
+                    "2.1 APPLICABLE DOCUMENTS"
+                ]
+            },
+            "page_content": "\nThe following documents form a part of this specification to the extent specified herein. Unless\notherwise indicated, the document is of the issue in effect on the date of invitation to bid or request\nfor proposal.\nANSI C63.4 \u2013 2009 \"American National Standard for Methods of Measurement of Radio-Noise\nEmissions from Low-Voltage Electrical and Electronic Equipment in the\nRange of 9 kHz to 40 GHz.\" American National Standards Institute (ANSI),\n2009.\nAS/NZS \"Information technology equipment - Safety, Part 1: General requirements\"\n60950.1:2011 Australian Standards Association.\nSIZE DRAWING NO. REV\nA L25298 C\nDRAWN SCALE 1/1 SHEET 4 OF 24\nAustralian \u201cElectromagnetic Compatibility Compliance and Labelling \u2013 Information for\nCommunications & Suppliers of electrical and electronic devices, vehicles and devices with\nMedia Authority internal combustion engines in Australia, Sept 2008, URL:\nhttp://www.acma.gov.au.\nC.I.S.P.R. Pub. 32 \"Limits and methods of measurement of radio interference characteristics of\ninformation technology equipment.\u201d International Special Committee on\nRadio Interference (C.I.S.P.R.).\nCPS Scheme (PSB) \u201cSafety Authority for the Singapore Consumer Protection registration\nscheme. Information Booklet\u201d \u2013 4, 1991 as amended through 2014.\nEN 55032 \"Limits and methods of measurement of radio interference characteristics of\ninformation technology equipment.\u201d European Committee for Electro\ntechnical Standardization (CENELEC), 2010.\nEN 55024 \u201cInformation technology equipment - Immunity characteristics - Limits and\nmethods of measurement.\u201d European Committee for Electro technical\nStandardization (CENELEC), 2010.\nEN 60320-1 \"Appliance Couplers for Household and Similar General Purposes.\u201d\nEuropean Committee for Electrotechnical Standardization (CENELEC),\n1996, including A1:1996 and A2:1998.\nEN 62368-1 Audio/video, information and communication technology equipment - Part 1:\nSafety requirements\u201d, Second Edition, European Committee For Electro\ntechnical Standardization (CENELEC), 2014.\nEN 61000-3-2 \u201cElectromagnetic Compatibility (EMC) Part 3: Limits, Section 2: Limits for\nHarmonics Current Emissions (Equipment input current \uf0a316A per phase).\u201d\nEuropean Committee for Electro technical Standardization (CENELEC).\nEN 61000-3- \u201cElectromagnetic compatibility (EMC) - Part 3-3 Limits - Limitation of voltage\n3 fluctuations and flicker in low-voltage supply systems for equipment with\nrated current <= 16 A\u201d European Committee for Electro technical\nStandardization (CENELEC).\nGB17625.1- Electromagnetic compatibility \u2013 Limits \u2013 Limits for harmonic current\nemissions (equipment input current <=16A Per Phase), Issued 9Feb2003,\neffective 1May2003\nGB4943.1-2011 \u201cInformation Technology Equipment \u2013 Safety \u2013 Part 1: General Issued\n2010-12-1, Effective 2012-12-1.\nGB9254-2008 Information technology equipment \u2013 Radio disturbance characteristics \u2013\nLimits and methods of measurement, Issued 6Aug2008, effective\n1Sep2009\nIEC 60950-1 \u201cSafety of Information Technology Equipment - Safety - Part 1: General\nrequirements\u201d, Second Edition, International Electro technical Commission,\n2005+A1:2009, +A2:2013\nIEC 62368-1 \u201cAudio/video, information and communication technology equipment - Part 1:\nSafety requirements\u201d, Second Edition, 2014\nSIZE DRAWING NO. REV\nA L25298 C\nDRAWN SCALE 1/1 SHEET 5 OF 24\nIEC 61000-4 \"Electromagnetic Compatibility (EMC) \u2013 Part 4: Testing and measurement\nSections 2~6,8, 11 techniques.\" International Electrotechnical Commission (IEC).\nKorea \"EMC Registration Regulation\", URL: http://rra.go.kr\nMSIP Approval\nNOM-019-SCFI-1998 \u201cSafety of Data-Processing Equipment\u201d Norma Oficial Mexicana, 1998.\nTaiwan EMC Law \"Commodity EMC Regulation\" (Taiwan EMC Law), Bureau of Standards,\nMetrology, and Inspection under auspices of the Ministry of Economic\nAffairs, URL: http://www.bsmi.gov.tw .\nUL 62368-1 / Audio/video, information and communication technology equipment\u201d\nCAN/CSA C22.2 No. Underwriters Laboratories, Inc., Canadian Standards Association (operating\n62368-1-14 as \u201cCSA Group\u201d), Second Edition, 2014.\nNOTE: All regulatory standards shall be judged applicable at the most recently published and agency adopted\nrevision of the standard for the certifying country.",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "2.2 ORDER OF PRECEDENCE",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "2. REFERENCE DOCUMENTS",
+                    "2.2 ORDER OF PRECEDENCE"
+                ]
+            },
+            "page_content": "\nIn the event of a conflict between this specification and references cited herein, this specification\nshall take precedence.\nNOTE:\nCompliance to the latest revision of HPInc General Specification for the Environment\n(GSE Document number HX-00011-00), including the RoHS Compliance\nSpecification in the GSE, is required.\nhttp://www.hp.com/hpinfo/globalcitizenship/environment/pdf/gse.pdf.",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "3. GENERAL FUNCTION DESCRIPTION",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "3. GENERAL FUNCTION DESCRIPTION"
+                ]
+            },
+            "page_content": "\n(For reference only) This specification describes a self-contained 65.0 Watt AC Adapter, powered from the\nAC Mains, and supplying a single direct current, constant voltage output. There is no power switch. Output\npower is supplied upon application of AC input through the line cord. The output cable is 1.8m long with 3\nconductors - one for output power positive and one for return. The third conductor will provide an\n\u201cADAPTER POWER RATING and ID\u201d signal proportional to the output load current and output power rating.",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "4.1.1 Voltage",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "4. ELECTRICAL",
+                    "4.1 INPUT",
+                    "4.1.1 Voltage"
+                ]
+            },
+            "page_content": "\nThe power supply shall be capable of supplying full rated output power over the input range of\n90 to 265 VAC RMS. Nominal voltage is 120 VAC. The power supply shall be capable of start-\nup (power-on) at 90 VAC and 50 Hz minimum.",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "4.1.2 Power Factor",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "4. ELECTRICAL",
+                    "4.1 INPUT",
+                    "4.1.2 Power Factor"
+                ]
+            },
+            "page_content": "\n(For reference only.) The power factor, when measured at 120 VAC and maximum load, shall\nbe greater than 0.5. The source impedance shall be less than 0.1 ohm.\nSIZE DRAWING NO. REV\nA L25298 C\nDRAWN SCALE 1/1 SHEET 6 OF 24",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "4.1.3 Range Switching",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "4. ELECTRICAL",
+                    "4.1 INPUT",
+                    "4.1.3 Range Switching"
+                ]
+            },
+            "page_content": "\nThe power supply shall accept the full input range. No range switching is necessary or possible.",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "4.1.4 Frequency",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "4. ELECTRICAL",
+                    "4.1 INPUT",
+                    "4.1.4 Frequency"
+                ]
+            },
+            "page_content": "\nThe supply shall operate with an input frequency of 47 \u2013 63 Hz AC.",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "4.1.5 Current",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "4. ELECTRICAL",
+                    "4.1 INPUT",
+                    "4.1.5 Current"
+                ]
+            },
+            "page_content": "\nMaximum steady state input current shall be less than 1.7 Amperes RMS at 90 VAC and\nmaximum load.",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "4.1.6 Input Power Rating",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "4. ELECTRICAL",
+                    "4.1 INPUT",
+                    "4.1.6 Input Power Rating"
+                ]
+            },
+            "page_content": "\n(For reference only.) The supply true input power is less than 80 watts.",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "4.1.7 Inrush Current",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "4. ELECTRICAL",
+                    "4.1 INPUT",
+                    "4.1.7 Inrush Current"
+                ]
+            },
+            "page_content": "\nMaximum inrush current, from power-on (with power on at any point on the AC sinewave) and\nincluding but not limited to, three line cycles, shall be limited to a 29% margin of the I2t rating of\nthe input fuse and bridge rectifier:",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "4.1.7.1 Cold Start",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "4. ELECTRICAL",
+                    "4.1 INPUT",
+                    "4.1.7 Inrush Current",
+                    "4.1.7.1 Cold Start"
+                ]
+            },
+            "page_content": "\nCool the disconnected power supply long enough to ensure that all components are within\n3\u00b0C of the minimum temperature as specified in Section 5.1. Apply the maximum input\nvoltage in section 4.1.1 to the power supply.",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "4.1.7.2 Hot Start",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "4. ELECTRICAL",
+                    "4.1 INPUT",
+                    "4.1.7 Inrush Current",
+                    "4.1.7.2 Hot Start"
+                ]
+            },
+            "page_content": "\nOperate the power supply the maximum ambient operating air temperature as specified in\nSection 5.1 for 15 minutes. Cycle power to the power supply by removing and reconnecting\nmaximum input voltage as specified in Section 4.1.1.",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "4.1.8.1 Under Voltage",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "4. ELECTRICAL",
+                    "4.1 INPUT",
+                    "4.1.8 Protection",
+                    "4.1.8.1 Under Voltage"
+                ]
+            },
+            "page_content": "\nThe power supply shall not be damaged by applying an input voltage below the minimum\nspecified in Section 4.1.1.",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "4.1.8.2 Catastrophic Failure Protection:",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "4. ELECTRICAL",
+                    "4.1 INPUT",
+                    "4.1.8 Protection",
+                    "4.1.8.2 Catastrophic Failure Protection:"
+                ]
+            },
+            "page_content": "\nWhen any single component fails, the power supply will not exhibit any of the following\neffects:\na) Startling noise\nb) Flame\nc) Excessive smoke\nd) Charred PCB\ne) Fused PCB conductor\nf) Dielectric breakdown\ng) Chemical leak outside the case\nSIZE DRAWING NO. REV\nA L25298 C\nDRAWN SCALE 1/1 SHEET 7 OF 24",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "4.1.8.3 Power Line Transient",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "4. ELECTRICAL",
+                    "4.1 INPUT",
+                    "4.1.8 Protection",
+                    "4.1.8.3 Power Line Transient"
+                ]
+            },
+            "page_content": "\nThe power supply shall operate within specifications with the transients defined in IEC\n61000-4-4 and IEC 61000-4-5.\nThe adapter shall survive and the product in which it is installed shall continue to operate\nwith no component failures during and after repeated applications of the following\ntransients. In the event that an end use product is not available for these tests, the power\nsupply shall be loaded at minimum per the load table.\nHP recommends that the signal generator be used with low impedance of 12 Ohms.\nTABLE 2 POWER LINE TRANSIENT REQUIREMENTS\n|    | 0           | 1         | 2            | 3        | 4   | 5          | 6            | 7               | 8                               | 9          | 10   |\n|---:|:------------|:----------|:-------------|:---------|:----|:-----------|:-------------|:----------------|:--------------------------------|:-----------|:-----|\n|  0 |             | Transient |              | Coupling |     | Test level | Phase        | Repetition Rate |                                 | Acceptance |      |\n|    |             | Type      |              |          |     |            |              |                 |                                 |            |      |\n|  1 |             |           |              | mode     |     |            |              |                 |                                 | Criteria   |      |\n|  2 | Surge       |           | Differential |          |     | \uf0b1 1.5 KV   | 0\uf0b0           | 10 pulses       | Operating                       |            |      |\n|    | immunity    |           |              |          |     |            | 90\uf0b0          | 10 sec          |                                 |            |      |\n|    | (Lightning) |           |              |          |     |            | 180\uf0b0         |                 |                                 |            |      |\n|    | 61000-4-5   |           |              |          |     |            | 270\uf0b0         |                 |                                 |            |      |\n|  3 |             |           | Common       |          |     | \uf0b1 2.5 KV   |              |                 |                                 |            |      |\n|  4 |             |           | Common       |          |     | \uf0b1 3 KV     |              |                 | No component damage, Loss of    |            |      |\n|    |             |           |              |          |     |            |              |                 | function is allowed but the PSU |            |      |\n|    |             |           |              |          |     |            |              |                 | must be recovery with remote    |            |      |\n|    |             |           |              |          |     |            |              |                 | ON-OFF switch                   |            |      |\n|  5 | Electrical  |           |              | Coupling |     | Test level | Phase        | Repetition Rate |                                 | Acceptance |      |\n|    | Fast        |           |              |          |     |            |              |                 |                                 |            |      |\n|    | Transients  |           |              |          |     |            |              |                 |                                 |            |      |\n|    | 61000-4-4   |           |              |          |     |            |              |                 |                                 |            |      |\n|  6 |             |           |              | mode     |     |            |              |                 |                                 | Criteria   |      |\n|  7 |             |           | Differential |          |     | \uf0b1 2 KV     | Asynchronous | 5kHz repetition | Operating                       |            |      |\n|  8 |             |           | Common       |          |     | \uf0b1 2 KV     |              |                 |                                 |            |      |",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "4.1.8.4 AC Leakage Current:",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "4. ELECTRICAL",
+                    "4.1 INPUT",
+                    "4.1.8 Protection",
+                    "4.1.8.4 AC Leakage Current:"
+                ]
+            },
+            "page_content": "\nClass I Equipment (Grounded Equipment)\nThe total combined leakage current when measure in accordance with IEC 60950-1, 2nd\nEdition shall not exceed 30 microamperes when tested at 250 VAC, 50 Hz in a normal\noperating condition.",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "4.1.8.5 Common Mode Noise:",
+            "metadata": {
+                "image": [
+                    "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"
+                ],
+                "ancestors": [
+                    "4. ELECTRICAL",
+                    "4.1 INPUT",
+                    "4.1.8 Protection",
+                    "4.1.8.5 Common Mode Noise:"
+                ]
+            },
+            "page_content": "\nThe common mode noise when measure in accordance with IEC 62684 shall not exceed\nfollow below requirement\no AC Input Voltage: 90Vac/60Hz & 264Vac/50Hz\no The peak-to-peak voltage measured in the frequency range of 10KHz to 400KHz\nshall not exceed 150mV peak-to-peak.\no Test condition following with Full load (per step) by each 10% load\nSIZE DRAWING NO. REV\nA L25298 C\nDRAWN SCALE 1/1 SHEET 8 OF 24",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "4.1.8.6 Primary to Secondary Ground:",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "4. ELECTRICAL",
+                    "4.1 INPUT",
+                    "4.1.8 Protection",
+                    "4.1.8.6 Primary to Secondary Ground:"
+                ]
+            },
+            "page_content": "\nThe power supply shall have a 1 Meg Ohm 1/4W resistor and 0.1uF/100V capacitor parallel\ncombination between earth ground (FG) and secondary DC ground.",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "4.1.8.7 ISN resistors:",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "4. ELECTRICAL",
+                    "4.1 INPUT",
+                    "4.1.8 Protection",
+                    "4.1.8.7 ISN resistors:"
+                ]
+            },
+            "page_content": "\nThe power supply shall have a 470 Ohm(minimum) resistor between earth ground(FG)\nand secondary DC ground.",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "4.1.9 Energy Efficiency",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "4. ELECTRICAL",
+                    "4.1 INPUT",
+                    "4.1.9 Energy Efficiency"
+                ]
+            },
+            "page_content": "\nThe device shall conform to the EPA Energy Star Requirements Level VI for External Power\nSupplies:\no The Average Active Mode Efficiency minimum (Calculated but testing at 100%, 75%, 50%\nand 25% of rated output power and then computing the average of these four values) must\nbe greater than 88% at 115Vac input and 89% at 230Vac input.\no In addition the device must meet the No Load/Light Load requirements as specified below\n(measured at 115Vac/60Hz and 230Vac/50Hz):\nNo Load/Light Load\nOutput Load Maximum Input Power\n0W 0.21W\n0.25W 0.5W\n0.5W 1.0W\n1.0W 1.7W\n1.5W 2.4W\no [Option] In order to fulfill future efficiency requirement, the PSU should have an optional\ndesign to meet he No Load requirements as specified below (measured at 115Vac/60Hz\nand 230Vac/50Hz):\nNo Load\nOutput Load Maximum Input Power\n0W 0.15W",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "4.2.1 Voltage",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "4. ELECTRICAL",
+                    "4.2 OUTPUT",
+                    "4.2.1 Voltage"
+                ]
+            },
+            "page_content": "\nOne (1) output shall be provided as defined and measured at the output connector of the supply:\nOutput Voltage: 19.5V +5.0%\u2215-5%",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "4.2.2 Current",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "4. ELECTRICAL",
+                    "4.2 OUTPUT",
+                    "4.2.2 Current"
+                ]
+            },
+            "page_content": "\nMin Load 0A\nNom Load 1.7A\nMax Load 3.33A\n3.49A / 3 minutes\n3.7A / 1 minute\n3.81A / 30 seconds\nPeak Load 5.0A (300ms max)\nPeak Load 6.0A (10ms max) \u2013 2.4A peak to 6.0A\n3.33A (1min) \u2192 3.2A (2mins) \u2192 3.33A (1min)\nSIZE DRAWING NO. REV\nA L25298 C\nDRAWN SCALE 1/1 SHEET 9 OF 24\nNote: The output voltage will be allowed to drop to 15V minimum during this transient (measured\nat 100Vac).",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "4.2.3 Power",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "4. ELECTRICAL",
+                    "4.2 OUTPUT",
+                    "4.2.3 Power"
+                ]
+            },
+            "page_content": "\nThe power supply shall be capable of continuously supplying, when installed in the end use\nsystem, 65 Watts under all specified conditions.",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "4.2.4 Adapter Power Rating and ID",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "4. ELECTRICAL",
+                    "4.2 OUTPUT",
+                    "4.2.4 Adapter Power Rating and ID"
+                ]
+            },
+            "page_content": "\nThe power supply shall provide an \u201cADAPTER POWER RATING and ID\u201d signal proportional to\nthe output load current and output power rating power of 65 Watts. This signal communicates\nthe AC Adapter power capability/rating and dynamic power draw from the AC Adapter. There\nshall be provisions to adjust the tolerance of the Power Rating. This signal should provide:\n1. A 383 KOhm between the output voltage and the ID pin.\n2. A high level current source between 63W to 68W available at the ID pin.\n3. At start-up when the output voltage is within its steady-state tolerance and at its rated load,\nor when the output current reaches 20% above its rated current, the \u201cADAPTER POWER\nRATING\u201d signal shall start to become active after a delay of 50ms to 300ms.",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "4.2.5 Transient Response",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "4. ELECTRICAL",
+                    "4.2 OUTPUT",
+                    "4.2.5 Transient Response"
+                ]
+            },
+            "page_content": "\n(Step Load) The following transient loads are to be applied to the output. The frequency range\nof the transient loads described shall be from 1 Hz to 5 kHz. The waveform shall be a square\nwave with the slope of the rise and fall at 1 A/microsecond. The output voltage tolerance shall\nbe allowed \u00b1 5% during a step load change of up to 90% of full load including steps increasing\nfrom minimum or decreasing from full load. Varnishing or vacuum impregnation is required.\nMeasurements should be made at output cable connector.",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "4.2.6 Output Regulation",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "4. ELECTRICAL",
+                    "4.2 OUTPUT",
+                    "4.2.6 Output Regulation"
+                ]
+            },
+            "page_content": "\nAt nominal input line voltage (120Vac), the output shall be subjected to the load described in\nSection 4.2.2, and shall remain within the regulation limits as defined in Section 4.2.1.",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "4.2.7 Protection",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "4. ELECTRICAL",
+                    "4.2 OUTPUT",
+                    "4.2.7 Protection"
+                ]
+            },
+            "page_content": "\nThe power supply shall automatically shut down under the conditions described below.",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "4.2.8 Over Voltage",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "4. ELECTRICAL",
+                    "4.2 OUTPUT",
+                    "4.2.8 Over Voltage"
+                ]
+            },
+            "page_content": "\nThe power supply shall provide over voltage protection such that under any single component\nfailure, the output channel shall not exceed 29 volts with a maximum duration of\n250 milliseconds.",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "4.2.9 Over Current",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "4. ELECTRICAL",
+                    "4.2 OUTPUT",
+                    "4.2.9 Over Current"
+                ]
+            },
+            "page_content": "\nThe power supply shall limit the maximum steady state output current to an average current of\n11 Amperes.",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "4.2.10 Short Circuit",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "4. ELECTRICAL",
+                    "4.2 OUTPUT",
+                    "4.2.10 Short Circuit"
+                ]
+            },
+            "page_content": "\nThe power supply shall be protected such that a short from output to return shall not result in a\nfire hazard, shock hazard, or damage to the power supply.\nSIZE DRAWING NO. REV\nA L25298 C\nDRAWN SCALE 1/1 SHEET 10 OF 24",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "4.2.11 Outputs/Ripple/Noise",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "4. ELECTRICAL",
+                    "4.2 OUTPUT",
+                    "4.2.11 Outputs/Ripple/Noise"
+                ]
+            },
+            "page_content": "\nMaximum allowable peak-to-peak ripple and noise (as measured at the load with 100VAC input)\non the output channel shall be 380mV pk-pk (or 250 mV RMS) ripple within 10 kHz to 20 MHz\nbandwidth. A resistive load (non-electronic) shall be used for this measurement. The output\nshall be bypassed to return by 1.0 microfarad ceramic capacitor in parallel with 10 microfarad\ntantalum capacitor at the point of load. The load cable shall be the specified output cable\nassembly. The printed wiring board assembly shall be installed in its enclosure for this\nmeasurement or have the measurement leads properly shielded and proper earth grounds\napplied to power supply.",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "4.2.12 Stability",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "4. ELECTRICAL",
+                    "4.2 OUTPUT",
+                    "4.2.12 Stability"
+                ]
+            },
+            "page_content": "\nThe power supply shall be unconditionally stable while operating within its normal operating\nspecification.",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "4.2.13 Overshoot",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "4. ELECTRICAL",
+                    "4.2 OUTPUT",
+                    "4.2.13 Overshoot"
+                ]
+            },
+            "page_content": "\nDuring power-on or power-off, the output voltage shall be monotonically increasing or\ndecreasing with respect to the overshoot which shall neither exceed 21 volts peak nor be outside\nthe regulation requirements for more than 10 milliseconds (mS).",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "4.2.14 Power-On Time",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "4. ELECTRICAL",
+                    "4.2 OUTPUT",
+                    "4.2.14 Power-On Time"
+                ]
+            },
+            "page_content": "\nOutput Regulation: The output shall be in regulation within five (5) seconds after valid input\npower (90 VAC) has been applied.",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "4.2.15 Rise Time",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "4. ELECTRICAL",
+                    "4.2 OUTPUT",
+                    "4.2.15 Rise Time"
+                ]
+            },
+            "page_content": "\nOutput Voltage: The output shall be in regulation within 40mS at 0 to 500mA condition.\n(Measured from 10% to 95% regulation)",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "4.2.16 Hold Up",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "4. ELECTRICAL",
+                    "4.2 OUTPUT",
+                    "4.2.16 Hold Up"
+                ]
+            },
+            "page_content": "\no The power supply shall maintain voltage regulation within the specified limits in paragraph\n4.2.1 for at least 5 milliseconds after loss of input voltage measured at 115 VAC and at\nmaximum load.\no The power supply shall maintain voltage regulation within the specified limits in paragraph\n4.2.1 for at least 10 milliseconds after loss of input voltage measured at 115 VAC and at\n80% load.",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "4.2.17 Acoustic Test",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "4. ELECTRICAL",
+                    "4.2 OUTPUT",
+                    "4.2.17 Acoustic Test"
+                ]
+            },
+            "page_content": "\nThe power supply when tested in an anechoic chamber shall not exceed the sound pressure\nlevels per the HP AC Adapter Acoustic Noise Test Specification under all output load and ac\ninput conditions. Acoustic noise measurements shall be conducted in accordance with ISO\n7779 (or ECMA-74) and declared in accordance with ISO 9269 (or ECMA-109).",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "4.2.18 System Capacitive Load",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "4. ELECTRICAL",
+                    "4.2 OUTPUT",
+                    "4.2.18 System Capacitive Load"
+                ]
+            },
+            "page_content": "\nThe system load capacitance is 2200uF. Plugging a live AC Adapter into the system\ncapacitance shall not cause the adapter to shut down.\nSIZE DRAWING NO. REV\nA L25298 C\nDRAWN SCALE 1/1 SHEET 11 OF 24",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "4.2.19 Thermal Shutdown",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "4. ELECTRICAL",
+                    "4.2 OUTPUT",
+                    "4.2.19 Thermal Shutdown"
+                ]
+            },
+            "page_content": "\nThe power supply shall incorporate over temperature protection to prevent catastrophic failure\nfrom overheating.",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "5.1.1 Operating",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "5. ENVIRONMENTAL REQUIREMENTS",
+                    "5.1 TEMPERATURE",
+                    "5.1.1 Operating"
+                ]
+            },
+            "page_content": "\nThe supply shall operate from 0 to 35\uf0b0C. The maximum temperature rise of any surface shall\nnot exceed 45\uf0b0C when measured at 100 Vac and at maximum load.",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "5.1.2 Non-Operating",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "5. ENVIRONMENTAL REQUIREMENTS",
+                    "5.1 TEMPERATURE",
+                    "5.1.2 Non-Operating"
+                ]
+            },
+            "page_content": "\nThe power supply can be stored from -20 to 85\uf0b0C.",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "5.2 COOLING",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "5. ENVIRONMENTAL REQUIREMENTS",
+                    "5.2 COOLING"
+                ]
+            },
+            "page_content": "\nThe power supply shall be convection cooled only.",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "5.3 HUMIDITY",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "5. ENVIRONMENTAL REQUIREMENTS",
+                    "5.3 HUMIDITY"
+                ]
+            },
+            "page_content": "\nThe power supply shall withstand without degradation with 95% relative humidity, non-condensing,\nboth operating and non-operating.",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "5.4.1 Operating",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "5. ENVIRONMENTAL REQUIREMENTS",
+                    "5.4 ALTITUDE",
+                    "5.4.1 Operating"
+                ]
+            },
+            "page_content": "\nThe power supply can be operated at 5,000 m above sea level",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "5.4.2 Non-Operating",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "5. ENVIRONMENTAL REQUIREMENTS",
+                    "5.4 ALTITUDE",
+                    "5.4.2 Non-Operating"
+                ]
+            },
+            "page_content": "\n50,000 feet above sea level.",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "5.5 MECHANICAL SHOCK",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "5. ENVIRONMENTAL REQUIREMENTS",
+                    "5.5 MECHANICAL SHOCK"
+                ]
+            },
+            "page_content": "\n(Power supply inside assembly.)",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "5.5.1 Operating",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "5. ENVIRONMENTAL REQUIREMENTS",
+                    "5.5 MECHANICAL SHOCK",
+                    "5.5.1 Operating"
+                ]
+            },
+            "page_content": "\n10 G, 11 ms, half sine, one shock input in each of three mutually perpendicular axes, for a total\nof six shock inputs.",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "5.5.2 Non-Operating",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "5. ENVIRONMENTAL REQUIREMENTS",
+                    "5.5 MECHANICAL SHOCK",
+                    "5.5.2 Non-Operating"
+                ]
+            },
+            "page_content": "\n100 G peak, trapezoid, 180 in/s velocity change, one shock input per direction in each of three\nmutually perpendicular axes, for a total of six shock inputs. 240 G peak, 2 ms, half sine, one\nshock input in each of three mutually perpendicular axes, for a total of six shock inputs.",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "5.5.3 UL Safety",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "5. ENVIRONMENTAL REQUIREMENTS",
+                    "5.5 MECHANICAL SHOCK",
+                    "5.5.3 UL Safety"
+                ]
+            },
+            "page_content": "\n36-inch drop onto hardwood surface, after which no safety hazard is encountered regardless of\noperational capabilities.\nSIZE DRAWING NO. REV\nA L25298 C\nDRAWN SCALE 1/1 SHEET 12 OF 24",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "5.5.4 Shipping",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "5. ENVIRONMENTAL REQUIREMENTS",
+                    "5.5 MECHANICAL SHOCK",
+                    "5.5.4 Shipping"
+                ]
+            },
+            "page_content": "\n42-inch drop, all edges, surfaces \u2014 while enclosed in appropriate shipping container.",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "5.6 VIBRATION",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "5. ENVIRONMENTAL REQUIREMENTS",
+                    "5.6 VIBRATION"
+                ]
+            },
+            "page_content": "\n(Supply inside assembly.)",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "5.6.1 Operating",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "5. ENVIRONMENTAL REQUIREMENTS",
+                    "5.6 VIBRATION",
+                    "5.6.1 Operating"
+                ]
+            },
+            "page_content": "\n0.75 G zero to peak, 5 to 500 Hz, 0.5 octaves/minute, one cycle, 5 to 500 to 5 Hz per axis in\neach of three mutually perpendicular axes.",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "5.6.2 Non-Operating",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "5. ENVIRONMENTAL REQUIREMENTS",
+                    "5.6 VIBRATION",
+                    "5.6.2 Non-Operating"
+                ]
+            },
+            "page_content": "\n1.5 G zero to peak, 5 to 500 Hz, 0.5 octaves/minute, one cycle, 5 to 500 to 5 Hz per axis in each\nof three mutually perpendicular axes.\n0.025 G squared/Hz, 10 to 500 Hz, nominal 3.5 G RMS level, one hour per axis, in each of three\nmutually perpendicular axes for a total duration of three hours.",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "5.7 ELECTROSTATIC DISCHARGE (ESD)",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "5. ENVIRONMENTAL REQUIREMENTS",
+                    "5.7 ELECTROSTATIC DISCHARGE (ESD)"
+                ]
+            },
+            "page_content": "\nThe AC adapter shall withstand ESD test voltage conditions at any point on the enclosure using the\ntest setups and conditions found in Document 131296 and with transients as defined in IEC 61000-\n4-2. As an infrequently user touchable subassembly, the following test levels shall be used:\na) \u00b115 kV with no abnormal operation, but test to 20kV and report results\nb) \u00b115 kV with no damage to power supply, but test to 20kV and report results\nThe storage capacitance shall be 150 pF and the discharge resistance shall be 330 ohms.",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "5.8 ECO ENVIRONMENTAL",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "5. ENVIRONMENTAL REQUIREMENTS",
+                    "5.8 ECO ENVIRONMENTAL"
+                ]
+            },
+            "page_content": "\nThis section defines environmental requirements that are applicable to all products and product\ncomponents. Individual components specifications may amend or append requirements to this base\nset as part of their component-specific requirements, but otherwise these requirements are applicable\nin all cases.",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "5.8.1 General Requirements",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "5. ENVIRONMENTAL REQUIREMENTS",
+                    "5.8 ECO ENVIRONMENTAL",
+                    "5.8.1 General Requirements"
+                ]
+            },
+            "page_content": "\nAll products, components, and materials shall comply with the latest revision of HP Standard\n011-00 General Specification for the Environment (GSE) including all referenced documents\nthroughout the product life cycle.\nAccess to the public version of GSE is available from the URL.\nhttp://h20195.www2.hp.com/V2/GetDocument.aspx?docname=c04932490",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "5.8.2 Supplemental Environmental Specification",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "5. ENVIRONMENTAL REQUIREMENTS",
+                    "5.8 ECO ENVIRONMENTAL",
+                    "5.8.2 Supplemental Environmental Specification"
+                ]
+            },
+            "page_content": "\nAll commodity, component, and part materials shall comply with the HP Standard HX-00025-\n01 Supplemental Environmental Specification \u2013 Commodity and Component (Supplemental\nEnvironmental Spec) requirements. Component categories are created to allow different\nmaterial restriction requirements for each category. The Supplemental Environmental Spec is\na supplement to the HP GSE.\nSIZE DRAWING NO. REV\nA L25298 C\nDRAWN SCALE 1/1 SHEET 13 OF 24\nThe Supplemental Environmental Spec references the Substances and Materials Future\nRequirements (HX-00011-01A), Substances and Materials Business-Specified Requirements\n(HX-00011-01B) and Product Requirements (HX-00011-11) sections of the GSE with technical\nmaterial and product specifications.\nThe product shall comply with all requirements in Supplemental Environmental Spec at the\ntime of release, regardless of any future regulatory effective date.\nThe Supplier shall provide the required data to HP\u2019s System Integrator for the completion of\nthe HP Environmental Data Sheet (EDS), HP Recyclability Assessment Tool (RAT), and\nDisassembly Instructions.\nIndividual commodity or component specifications may exempt requirements to the\nSupplemental Environmental Spec as part of component-specific requirements, but otherwise\nthe requirements in Supplemental Environmental Spec are applicable in all instances.\nLow Halogen Exemption: Brominated and Chlorinated Flame Retardants; GSE section HX-\n00011-01B; GSE Id 090807-92, & 080715-34, & 090807-37 AND Antimony; GSE section HX-\n00011-01B; GSE Id 110727-47 & 110727-63 are not required.\nAccess to the HP Commodity/Component Spec (HX-00025-01), Substances and Materials\nFuture Requirements (HX-00011-01A), Substances and Materials Business-Specified\nRequirements (HX-00011-01B), and Product Requirements (HX-00011-11) require access to\nthe HP Supplier Handbook, Restricted Access. Register or sign in from the URL.\nhttps://h20168.www2.hp.com/supplierextranet/index.do",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "5.8.3.1 Energy Requirements",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "5. ENVIRONMENTAL REQUIREMENTS",
+                    "5.8 ECO ENVIRONMENTAL",
+                    "5.8.3 Other ECO Requirements",
+                    "5.8.3.1 Energy Requirements"
+                ]
+            },
+            "page_content": "\n5.8.3.11. Korea e-Standby (Energy Boy) (if applicable)\n\u2022 System must com ply with Korea e-Standby Power Program Regulation on Standby\nPower Reduction. The detailed requirements can be found in the HP GSE - Product\nRequirements.\n\u2022 Please note since this requirement is now mandatory by the HP GSE, it will be deleted\nin future releases of the product specification\n5.8.3.12. Korea EPS-MEPS\n\u2022 The External power supply must comply with the Korea Mandatory Energy Performance\nSpecification (MEPS). The detailed requirements can be found in the HP GSE -\nProduct Requirements.\n\u2022 Please note since this requirement is now mandatory by the HP GSE, it will be deleted\nin future releases of the product specification.\n5.8.3.13. Australia and New Zealand EPS Registration\n\u2022 The External power supply must be registered in Australia and New Zealand. The\ndetailed requirements can be found in the HP GSE - Product Requirements.",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "5.8.3.2 Accessibility",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "5. ENVIRONMENTAL REQUIREMENTS",
+                    "5.8 ECO ENVIRONMENTAL",
+                    "5.8.3 Other ECO Requirements",
+                    "5.8.3.2 Accessibility"
+                ]
+            },
+            "page_content": "\n5.8.3.21. Section 508 Accessibility \u2013 US\nSIZE DRAWING NO. REV\nA L25298 C\nDRAWN SCALE 1/1 SHEET 14 OF 24\nThe system must comply with the section 508 Accessibility \u2013 US requirements. Please\nreference: http://www.section508.gov/index.cfm?FuseAction=content&ID=12",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "5.8.3.3 EU Energy Related Products (formerly EuP)",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "5. ENVIRONMENTAL REQUIREMENTS",
+                    "5.8 ECO ENVIRONMENTAL",
+                    "5.8.3 Other ECO Requirements",
+                    "5.8.3.3 EU Energy Related Products (formerly EuP)"
+                ]
+            },
+            "page_content": "\n5.8.3.31. EuP Lot 7 Tier 1\n\u2022 System must comply with the Energy Using Products (EuP) External Power Supply\nEnergy Specifications. The detailed requirements can be found in the HP GSE -\nProduct Requirements\n\u2022 Please note since this requirement is now mandatory by the HP GSE, it will be deleted\nin future releases of the product specification.\n5.8.3.32. EuP Lot 7 Tier 2\nSystem must comply with the April 27 2011 limits Tier 2 of the Energy Using Products (EuP)\nExternal Power Supply Energy Specifications. The detailed requirements can be found in the\nHP GSE - Product Requirements.",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "5.8.3.4 Canada EPS certification and Registration",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "5. ENVIRONMENTAL REQUIREMENTS",
+                    "5.8 ECO ENVIRONMENTAL",
+                    "5.8.3 Other ECO Requirements",
+                    "5.8.3.4 Canada EPS certification and Registration"
+                ]
+            },
+            "page_content": "\nExternal power supplies must comply with the Canadian standard CSA-C381.1-08: Test\nmethod for calculating the energy efficiency of single-voltage external ac-dc and ac-ac\npower supplies. The EPS must be certified by an accredited body and registered with the\nCanadian government by the supplier.\nDeliverables:\n\u2022 A signed report and certificate issued by an ISO/EN 17025 accredited laboratory\nshowing compliance with this requirement.\n\u2022 Confirmation of registration with the applicable Canadian government agency.",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "5.8.3.5 Mexico Sustainable Energy Use Law",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "5. ENVIRONMENTAL REQUIREMENTS",
+                    "5.8 ECO ENVIRONMENTAL",
+                    "5.8.3 Other ECO Requirements",
+                    "5.8.3.5 Mexico Sustainable Energy Use Law"
+                ]
+            },
+            "page_content": "\nExternal power supplies must comply with the Mexico Sustainable Energy Use Law.\nProducts must be tested for OFF mode at 127V/60Hz and labeled with the power\nconsumption as required.\nDeliverables:\n\u2022 A completed and signed HP Mexico Energy Use Law Report issued by the supplier\nor by an ISO/EN 17025 accredited laboratory showing compliance with this\nrequirement.\n\u2022 Completed HP Registration Form.",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "6. AGENCY APPROVALS",
+            "metadata": {
+                "image": [
+                    "iVBORw0KGgoAAAANSUhEUgAAABgAAAAWCAIAAABVH8vfAAACDUlEQVR4nK1TTWjUQBj9vkkmJNWEJLK4F61ID15EULC0J4XehIogIougggcPYg8tFLRgL+pRQYQWwYPgWVDQYxVUPFikIAiCIsiqtWuyaST7MzsZD9Hu7CTadvERQmbyvTfv+xkUQsD/gJ7fqlarmboQAhEJIQCAiMp3EASe55VKpYyF4a5+zm+9+tZsNimlpmn6vg8AegpAS9s3pcJWlhljmqY5jhNFUb1ed10Xvw52I/yFD/WpC+niE//px6Ay7ly9uXp2rNjRs0+cc8MwAIBz3m63CRew9pCt9paJaS4AAHj1rbZzkAtwHy0ZkzfksCzA933btm3b9jyvXC7rLalprLayfOoQAIBpug/ffJ+9zAR8ObIv74gSgn8AWfnf79hUfX7DevnZcZyuCqKe9qMDPV4yJEnS6XTkoDAMFY7yppQahkEplfd1y7KU0zjneSGy+AIf3BPX7hRKI2LBZGf/VEfvlsTFKzJZVkFEzN+1OI7zovhzlZ8c0x+/Vvhry385kq2h44JAJZ2eZd5RkiR5RXZ9hgztAdPSx49vVKjRaKiVCmqNo4fNufvt+VsijrUDw6LVGpiekYVIYWoy0ucLzXMVsne/+FEbuH3XqJwWUaTtHlLnKO+IMdZN8/yZNAysqUv6wRHItVx2vV77vW3msRN0eFQ2WxBWWKM07bk2f2Mq2OhArosCR/3hF+Uxyw8JnmgqAAAAAElFTkSuQmCC"
+                ],
+                "ancestors": [
+                    "6. AGENCY APPROVALS"
+                ]
+            },
+            "page_content": "\nThis product shall comply with all Regulatory requirements set forth in HPInc Specification 481605.\n4 8 1 6 0 5 - K .p d f\nNOTE: EN60601-1-2 EMC MOOP [Design Compliance]\nEN 60601-1-2 consisting of:\n\uf0de IEC 61000-4-2 Electrostatic Discharge\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026.[8kV contact, 15kV air discharge]\nSIZE DRAWING NO. REV\nA L25298 C\nDRAWN SCALE 1/1 SHEET 15 OF 24\n\uf0de IEC 61000-4-3 RF Fields\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026[10V/m, 80-2700MHz, 1kHz 80%AM\nmodulation Home Healthcare Environment]\n\uf0de IEC 61000-4-4 Elec. Fast Transients\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026....[\u00b12kV on AC and DC 5KHz Repetition]\n\uf0de IEC 61000-4-5 Surge\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026[\u00b10.5KV, \u00b11KV line to line/\u00b10.5KV,\n\u00b11KV, \u00b12KV line to earth on AC power port; \u00b12KV for outdoor cables]\nmodulation; 6Vrms in ISM bands (I/O cables < 3m excluded)]\n\uf0de IEC 61000-4-11 Voltage variations\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026..[ >95% dip,0.5 period; 30% dip,\n25 periods;>95% reduction, 250 periods]",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "7. RELIABILITY",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "7. RELIABILITY"
+                ]
+            },
+            "page_content": "\nLIFE EXPECTANCY: The power supply shall have a field failure rate of less than 0.1% annually within the\nfirst three years of operation.",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "7.1 DERATING GUIDELINES",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "7. RELIABILITY",
+                    "7.1 DERATING GUIDELINES"
+                ]
+            },
+            "page_content": "\nThe following component de-rating requirements shall be followed:\n\u2022 Semiconductor junction temperature shall be less than 130\uf0b0C.\n\u2022 Thermal De-rating at normal operation shall be <90%. Thermal measurements will be verified\nwith the power supply mounted in a representative product enclosure. OTP shall not result in\nany damage and safety or reliability degradation. Need to meet HP Life time requirement is any\nload, Voltage and ambient temperature.\n\u2022 Resistor power de-rating will be consistent with the resistor type and application\n\u2022 Component voltage de-rating shall be < 95% for all continuous conditions.\n\u2022 Components shall not exceed 100% of their voltage rating during start-up and transients;\nexception: Bulk Capacitors shall not exceed 110% during transients.\n\u2022 Component current de-rating shall be <90% for all continuous conditions. Exception: Bulk\nCapacitors shall not exceed 100% for all continuous conditions. The effects of ripple current\nheating shall be accounted for in this de-rating.\n\u2022 All components shall be de-rated to insure meeting the calculated MTBF\n\u2022 All magnetic devices shall be rated for 130\uf0b0C minimum\n\u2022 All capacitors must be rated at 2000 hours or greater at maximum rated temperature, unless\notherwise approved by HP. In any load, voltage and temperature, all capacitor must meet HP\nlifetime define\n\u2022",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "7.1.1 E-Caps life time",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "7. RELIABILITY",
+                    "7.1 DERATING GUIDELINES",
+                    "7.1.1 E-Caps life time"
+                ]
+            },
+            "page_content": "\n\u2022 All Aluminum electrolytic capacitors shall have a minimum lifetime of 8,736 hours at ambient\ntemperature of 35degC and 80% load.\n\u2022 Usage profile 8h x 52 weeks x 3 yrs = 8,736 hours",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "7.1.2 E-Caps Charge / discharge cycles",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "7. RELIABILITY",
+                    "7.1 DERATING GUIDELINES",
+                    "7.1.2 E-Caps Charge / discharge cycles"
+                ]
+            },
+            "page_content": "\n\u2022 If the design presents operational modes where sustained regular repetitive heavy E-cap\ncharge / discharge cycles are used, the supplier has to ensure that the E-caps are suitable for\nsuch use and that these charge / discharge cycles are within the components specification\nlimits.\nSIZE DRAWING NO. REV\nA L25298 C\nDRAWN SCALE 1/1 SHEET 16 OF 24",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "7.1.3 Critical Components",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "7. RELIABILITY",
+                    "7.1 DERATING GUIDELINES",
+                    "7.1.3 Critical Components"
+                ]
+            },
+            "page_content": "\nThe critical components list defines components with critical functionality, specifications,\nattributes, and parameters essential to the proper operation of the power supply and completed\nsystem. Once the list is complete for production, any deviation from this list requires\ndocumented completion of an agreed upon test plan. Final approval requires written HP\nacknowledgment. Due to the critical nature of these components, any deviation from the agreed\nupon BOM/AVL will jeopardize the stability, robustness and/or operation of the board. The\ntimeframe for AVL proposals and finalization is described in the appropriate Statement of Work\nand schedule milestones. Specific application criteria for critical components are defined in\nTable 3.\nTABLE 3\nEPS CRITICAL COMPONENTS CRITERIA\n|    | 0                  | 1                           | 2                                                                    |\n|---:|:-------------------|:----------------------------|:---------------------------------------------------------------------|\n|  0 | Part Description   | Application                 | Notes                                                                |\n|  1 | Bridge Diodes      | AC rectification            | 800V breakdown voltage minimum                                       |\n|  2 | Capacitors         | Frequency and loop          | X7R dielectric or better                                             |\n|    |                    | compensation                |                                                                      |\n|  3 | Capacitors         | High voltage primary        | Y5S or better                                                        |\n|    |                    | snubber circuits            |                                                                      |\n|  4 | Capacitors         | LLC resonant capacitor      | PP (polypropylene) material or better                                |\n|  5 | Capacitors(Plastic | PFC and LLC circuit         | MPP or MPE is recommended. The PE type is restricted.                |\n|    | CAP)               |                             |                                                                      |\n|  6 | Bulk capacitor     | Dc-bus                      | Active PFC, Boost, Fly-back topologies bulk cap rating need to       |\n|    |                    |                             | apply both 400Vdc / 105degC and 420Vdc / 105degC minimum.            |\n|  7 | Resistor           | Primary side                | High voltage type is preferred                                       |\n|    |                    |                             | - SMD 0805 is restricted                                             |\n|    |                    |                             | - \u201cThin film\u201d and \u201cCarbon\u201d type are restricted                       |\n|  8 | FET                | DC to DC main switching,    | FETs should be rated at least                                        |\n|    |                    | active PFC and stby circuit | - 600V Active PFC MosFET                                             |\n|    |                    | FET                         | - 600V PWM MosFET for Fly-back topologies                            |\n|    |                    |                             | - 600V MosFET for LLC topologies                                     |\n|  9 | By-path diode      | Active PFC or Boost         | Active PFC designs shall have a so called By-path diode in           |\n|    |                    | converter                   | parallel to the Boost choke and output rectifier.                    |\n| 10 | AC-Inrush current  | Active PFC or Boost         | Active PFC designs shall not have an AC-Inrush current limiting      |\n|    | limiting devices   | converter                   | device (ex: NTC) in the By-path circuit.                             |\n| 11 | MOV (Metal         | EMI-filter, DC bus          | If the usage of MOVs can\u2019t be avoided their voltage rating has to be |\n|    | Oxide Varistors)   |                             | greater 385Vrms                                                      |\nSIZE DRAWING NO. REV\nA L25298 C\nDRAWN SCALE 1/1 SHEET 17 OF 24\n|    | 0                   | 1                         | 2                                                                 |\n|---:|:--------------------|:--------------------------|:------------------------------------------------------------------|\n|  0 | Part Description    | Application               | Notes                                                             |\n|  1 | Magnetics           | Main transformer and      | The turns ratio of the output coupled inductor must be matched to |\n|    |                     | output coupled inductor   | the main transformer windings                                     |\n|  2 | Magnetics           | Inductors \u2013 powdered iron | Micrometals and Curie and Formosa Shing GA, TAF-200 are the       |\n|    |                     |                           | only approved powdered iron cores                                 |\n|  3 | Adhesive            | Component anchoring       | Must be Electronics Grade and meet UL94V-0                        |\n|  4 | Glue                | Component anchoring       | AB Glue is not allowed (fix component, thermal glue\u2026)             |\n|  5 | Red Phosphorus      | Material                  | Red Phosphorus must not be used as flame retardant in any part    |\n|    |                     |                           | of the power supply especially AC inlet and DC cable / plug.      |\n|  6 | AC fly leads / wire | AC socket                 | Must to use fly leads / wire to solder AC inlet to PCB.           |\n|  7 | PCB                 | PCB board                 | Low Halogen                                                       |",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "8. INTERCONNECTION",
+            "metadata": {
+                "image": [
+                    "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",
+                    "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Aq8XZjM8HlAUFAooFJe+UECSeJalFYruhe348eM2my0iIuKWW26xWCyXU3CZZVmNRiPbZ2r/LeiUs35eCCzLchzXl6HP/ULHHQ6HIAgsy7Isu3Dhwo8++ui999675ZZberXKAwMD77333h07drz33nuvvPKKxWJpa2uLiopyu90HDhw4cuRIWVmZRqOZNGlSfHy8KIosy7a2tm7cuLGqqmrevHmJiYk2m62wsHDt2rWTJ09OSEg4s3OapsPDw2+55ZY33niD47gFCxb0PBiKogYPHsyy7JYtWzZt2jRq1Ch95/TieQgKClqwYMFrr72mVqvP1PHz9T9ixAiWZdeuXbtmzZrc3Nwu1o0cAENR3V89LNv7RJbbjcZGuFw+Ryop3vbjQKGAKKKqChERYFl0dKC4GJmZaG5Ge/ulf8seDy+K7Jm3AbfbffLkSTlYq6GhgaZpi8XS3t7ucDguMFSsWyRJ6ujoKC8vpyhKrVZ3ieySJMlkMoWHh5/pj+Z53mq1VldXdxFTSZJUKlVcXFyX7U6ns7S0tAflVSpRX48jR+B29/IQo1Qqa2tr29vbDx06ZDQaz5dKRPa9pKSkXJEwcz/ruBxrabVaIyMj5a95+vTpU6ZMueuuux5//PFJkyY99thjZ56nx+Pp8rkEBwd/+OGHL7/88k033fT000+PHDkyMTGR47icnJzCwsLdu3cfOHDAarXOnz9foVDIUn733Xffe++9+/btM5vNv/zlL0tLS9955538/PyQkBA5wuTMpWURERE/+9nP/va3vzmdzlGjRgUHB59v4RkAhmGSk5NjYmJeeumlLVu2PPnkkwzDCILQw8y12Wx+4oknXn31VbvdPn78+PDw8B7m4jmOGzlyZHp6+hNPPLFmzZrf//73suNFjm9pb2+32WwajUb+2XTZVz73841EXm1cWorVq6nqagXDoLra7XJRAARBYlmuj+0LwhUkNBRuN775BgDGjMHNN+Obb/Dyy5AkqFRISrqU2QtJgkbDWSwai+X0o5bVav3++++rq6spiiosLKypqXnnnXdaWloYhuk5M1LPiKLodrurq6sB7Ny502w2n/kD8Xq9Y8aMueeee858fLdarUVFRUuXLlWc8SQoSZIoihEREU8//bTy7JnKhoaGv//978rzT1/SNHbtQlMTznm07grDMLt373a5XP/9739VKtX51jfJ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",
+                    "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"
+                ],
+                "ancestors": [
+                    "8. INTERCONNECTION"
+                ]
+            },
+            "page_content": "\nThe output cable shall meet the electrical and MTBF requirements of this specification and comply with the\nHP DC Cable Critical Parameter Specification. The cable shall be UL wire style UL 20276. The cable shall\ninclude a staked Velcro strap. The connector shall be equivalent to FOXCONN JPD0038-506 and pin out\nas shown in Figure 1.\nFIGURE 1 OUTPUT CABLE\nOUTPUT CABLE\n|    | 0     | 1           |\n|---:|:------|:------------|\n|  0 | PIN # | SIGNAL NAME |\n|  1 | 1     | OUTSIDE -   |\n|  2 | 2     | ID PIN      |\n|  3 | 3     | INSIDE +    |\nSIZE DRAWING NO. REV\nA L25298 C\nDRAWN SCALE 1/1 SHEET 18 OF 24",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "9. MARKINGS",
+            "metadata": {
+                "image": [
+                    "iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAIAAABvFaqvAAAC8ElEQVR4nK1VTUhUURQ+5828cn50/oRMnGkKhH6VhLSSiNoU9rMqSiiUgmjRIhBskUmLyoXWRmwRSZAI6pCItOmPcqEgRqDNSAOJwxt1JtRqppn3/+5t8fIxzowW4cdb3Hvud77zce65PKSUwkaA2RAVAMCh7ZX/kbb/wzAiOp3OwsJCPWIWKbGWlOgbT1UlACx/mvRUVQqxOB/7lleFj8cJIX6/n+M4ANC1zBIhNBbXGWe6XgPAYEXt4a52AJh9MTze1HIxMgUAff4KQ0imRO+sz+eLRqMFBQUsyzIJTRUo0T8ACNSeKDt3FgCebdubiM7tvHldTzY4AiUJTUVEPe71elmWjcViZomSzZQY1c6Pvnri213dekuhZMvBA+HA0MsLjQCgZHAkShAxEAgsLCywLFteXl5TU2OWKVUzJuCxd5e+uMZNT3U/nx4YzO2RTCkiWq1Wm82WTqcnJiZCoRC2luxwm9gsatmh6sXQFymZzNvs75pydfw9IUSSJFmWBUGQJAk5jhNFMYsaiUScTicAUEqNdiCieKnBfPpU0ZVGl8tlsVhwBQBgLi4uVlU1SyiVSnk8nqwgIvJ1dabSUrvbzbJspgoimi0WS655m81mt9tzhdJv3tnb7ukpmSqIaM7bBf04N5IMhtxOR2a+sVjzrTGrYTKZGIZJAJMKTjN5sY4jAwzD/Fn5vF/b2rVkElcD1nn9mIOZto49fT3pn79CzXdyT9fskWFWLxi83z7bOyAxJlNlRbB3INg7oAFafd6tR2vnR0aPdXf9k6Mfn0MfHzxc5uY1wH0tzfXxmQZxyX+5XgKc6ulPJpKbXA6g+RAOh3me53leEIS3N5oeQVHfkZOiKIqiKK1AlmVFURRFSS0tq6q63vUj4uJkcLKnHxxFx592GpedSQAAi8sJAGs6kmVZluW7Dt9IR6dRXFEUdQWaphFCCCF6yl8G8vbSTOY20w6sHtp/muysfMg793l/R3Nzc2NjY9FodK0yufgNYkSShTYpm4kAAAAASUVORK5CYII=",
+                    "iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAIAAABvFaqvAAAC8ElEQVR4nK1VTUhUURQ+5828cn50/oRMnGkKhH6VhLSSiNoU9rMqSiiUgmjRIhBskUmLyoXWRmwRSZAI6pCItOmPcqEgRqDNSAOJwxt1JtRqppn3/+5t8fIxzowW4cdb3Hvud77zce65PKSUwkaA2RAVAMCh7ZX/kbb/wzAiOp3OwsJCPWIWKbGWlOgbT1UlACx/mvRUVQqxOB/7lleFj8cJIX6/n+M4ANC1zBIhNBbXGWe6XgPAYEXt4a52AJh9MTze1HIxMgUAff4KQ0imRO+sz+eLRqMFBQUsyzIJTRUo0T8ACNSeKDt3FgCebdubiM7tvHldTzY4AiUJTUVEPe71elmWjcViZomSzZQY1c6Pvnri213dekuhZMvBA+HA0MsLjQCgZHAkShAxEAgsLCywLFteXl5TU2OWKVUzJuCxd5e+uMZNT3U/nx4YzO2RTCkiWq1Wm82WTqcnJiZCoRC2luxwm9gsatmh6sXQFymZzNvs75pydfw9IUSSJFmWBUGQJAk5jhNFMYsaiUScTicAUEqNdiCieKnBfPpU0ZVGl8tlsVhwBQBgLi4uVlU1SyiVSnk8nqwgIvJ1dabSUrvbzbJspgoimi0WS655m81mt9tzhdJv3tnb7ukpmSqIaM7bBf04N5IMhtxOR2a+sVjzrTGrYTKZGIZJAJMKTjN5sY4jAwzD/Fn5vF/b2rVkElcD1nn9mIOZto49fT3pn79CzXdyT9fskWFWLxi83z7bOyAxJlNlRbB3INg7oAFafd6tR2vnR0aPdXf9k6Mfn0MfHzxc5uY1wH0tzfXxmQZxyX+5XgKc6ulPJpKbXA6g+RAOh3me53leEIS3N5oeQVHfkZOiKIqiKK1AlmVFURRFSS0tq6q63vUj4uJkcLKnHxxFx592GpedSQAAi8sJAGs6kmVZluW7Dt9IR6dRXFEUdQWaphFCCCF6yl8G8vbSTOY20w6sHtp/muysfMg793l/R3Nzc2NjY9FodK0yufgNYkSShTYpm4kAAAAASUVORK5CYII=",
+                    "iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAIAAABvFaqvAAAC8ElEQVR4nK1VTUhUURQ+5828cn50/oRMnGkKhH6VhLSSiNoU9rMqSiiUgmjRIhBskUmLyoXWRmwRSZAI6pCItOmPcqEgRqDNSAOJwxt1JtRqppn3/+5t8fIxzowW4cdb3Hvud77zce65PKSUwkaA2RAVAMCh7ZX/kbb/wzAiOp3OwsJCPWIWKbGWlOgbT1UlACx/mvRUVQqxOB/7lleFj8cJIX6/n+M4ANC1zBIhNBbXGWe6XgPAYEXt4a52AJh9MTze1HIxMgUAff4KQ0imRO+sz+eLRqMFBQUsyzIJTRUo0T8ACNSeKDt3FgCebdubiM7tvHldTzY4AiUJTUVEPe71elmWjcViZomSzZQY1c6Pvnri213dekuhZMvBA+HA0MsLjQCgZHAkShAxEAgsLCywLFteXl5TU2OWKVUzJuCxd5e+uMZNT3U/nx4YzO2RTCkiWq1Wm82WTqcnJiZCoRC2luxwm9gsatmh6sXQFymZzNvs75pydfw9IUSSJFmWBUGQJAk5jhNFMYsaiUScTicAUEqNdiCieKnBfPpU0ZVGl8tlsVhwBQBgLi4uVlU1SyiVSnk8nqwgIvJ1dabSUrvbzbJspgoimi0WS655m81mt9tzhdJv3tnb7ukpmSqIaM7bBf04N5IMhtxOR2a+sVjzrTGrYTKZGIZJAJMKTjN5sY4jAwzD/Fn5vF/b2rVkElcD1nn9mIOZto49fT3pn79CzXdyT9fskWFWLxi83z7bOyAxJlNlRbB3INg7oAFafd6tR2vnR0aPdXf9k6Mfn0MfHzxc5uY1wH0tzfXxmQZxyX+5XgKc6ulPJpKbXA6g+RAOh3me53leEIS3N5oeQVHfkZOiKIqiKK1AlmVFURRFSS0tq6q63vUj4uJkcLKnHxxFx592GpedSQAAi8sJAGs6kmVZluW7Dt9IR6dRXFEUdQWaphFCCCF6yl8G8vbSTOY20w6sHtp/muysfMg793l/R3Nzc2NjY9FodK0yufgNYkSShTYpm4kAAAAASUVORK5CYII=",
+                    "iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAIAAABvFaqvAAAC8ElEQVR4nK1VTUhUURQ+5828cn50/oRMnGkKhH6VhLSSiNoU9rMqSiiUgmjRIhBskUmLyoXWRmwRSZAI6pCItOmPcqEgRqDNSAOJwxt1JtRqppn3/+5t8fIxzowW4cdb3Hvud77zce65PKSUwkaA2RAVAMCh7ZX/kbb/wzAiOp3OwsJCPWIWKbGWlOgbT1UlACx/mvRUVQqxOB/7lleFj8cJIX6/n+M4ANC1zBIhNBbXGWe6XgPAYEXt4a52AJh9MTze1HIxMgUAff4KQ0imRO+sz+eLRqMFBQUsyzIJTRUo0T8ACNSeKDt3FgCebdubiM7tvHldTzY4AiUJTUVEPe71elmWjcViZomSzZQY1c6Pvnri213dekuhZMvBA+HA0MsLjQCgZHAkShAxEAgsLCywLFteXl5TU2OWKVUzJuCxd5e+uMZNT3U/nx4YzO2RTCkiWq1Wm82WTqcnJiZCoRC2luxwm9gsatmh6sXQFymZzNvs75pydfw9IUSSJFmWBUGQJAk5jhNFMYsaiUScTicAUEqNdiCieKnBfPpU0ZVGl8tlsVhwBQBgLi4uVlU1SyiVSnk8nqwgIvJ1dabSUrvbzbJspgoimi0WS655m81mt9tzhdJv3tnb7ukpmSqIaM7bBf04N5IMhtxOR2a+sVjzrTGrYTKZGIZJAJMKTjN5sY4jAwzD/Fn5vF/b2rVkElcD1nn9mIOZto49fT3pn79CzXdyT9fskWFWLxi83z7bOyAxJlNlRbB3INg7oAFafd6tR2vnR0aPdXf9k6Mfn0MfHzxc5uY1wH0tzfXxmQZxyX+5XgKc6ulPJpKbXA6g+RAOh3me53leEIS3N5oeQVHfkZOiKIqiKK1AlmVFURRFSS0tq6q63vUj4uJkcLKnHxxFx592GpedSQAAi8sJAGs6kmVZluW7Dt9IR6dRXFEUdQWaphFCCCF6yl8G8vbSTOY20w6sHtp/muysfMg793l/R3Nzc2NjY9FodK0yufgNYkSShTYpm4kAAAAASUVORK5CYII="
+                ],
+                "ancestors": [
+                    "9. MARKINGS"
+                ]
+            },
+            "page_content": "\nThe OEM Power Supply Module nameplate label(s) shall have the following markings:\na) HPInc\nb) Series Number\nc) HPInc Part Number/Spares Part Number\nd) Date Code\ne) All Required AGENCY MARKINGS (See Section 6.1)\nf) Country of Manufacture\ng) Electrical Rating: Output rating, Input rating in Volts, Amps, Hertz.\nh) Commodity Tracking Label.\nSIZE DRAWING NO. REV\nA L25298 C\nDRAWN SCALE 1/1 SHEET 19 OF 24\n|    | 0                | 1                                          |\n|---:|:-----------------|:-------------------------------------------|\n|  0 | Adapter supplier | Label drawing                              |\n|  1 | AcBel (-014)     | Ala cb Be e l Hl ea rw a +in 6g 5.p Wd     |\n|    |                  | d r f                                      |\n|  2 | Chicony          | C hla icb oe n yl Hr ew r ain +g 6.p 5d Wf |\n|    |                  | d a                                        |\n|  3 | Delta            | Dla eb lt a He ea rw a +in 6g 5.p Wd       |\n|    |                  | l d r f                                    |\n|  4 | Lite-On          | L itla eb - Oe nl Hr ew r ain +g 6.p 5 Wd  |\n|    |                  | d a f                                      |",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "10.1 DIMENSIONS",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "10. MECHANICAL",
+                    "10.1 DIMENSIONS"
+                ]
+            },
+            "page_content": "\nThe nominal external dimensions of the power supply should not exceed 90 mm X 51 mm X 28.5\nmm. See Figure 2.",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "10.2 MATERIAL",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "10. MECHANICAL",
+                    "10.2 MATERIAL"
+                ]
+            },
+            "page_content": "\nThe enclosure material should be able to withstand the tests of Section 5.0 and conform to Document\n100339.",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "10.3 COLOR",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "10. MECHANICAL",
+                    "10.3 COLOR"
+                ]
+            },
+            "page_content": "\nColor shall conform to Document 114047.",
+            "type": "Document"
+        }
+    }
+]

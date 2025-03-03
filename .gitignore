@@ -1,0 +1,12 @@
+.vscode/
+.DS_Store
+__pycache__/
+*logs.txt
+modified_data*
+rag_logs/
+develop*.ipynb
+test.ipynb
+.venv/
+.env
+poetry.lock
+uploaded_file/

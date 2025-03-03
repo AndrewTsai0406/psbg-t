@@ -1,0 +1,1048 @@
+[
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "0. History:",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "0. History:"
+                ]
+            },
+            "page_content": "\nASUS PD 3.0 65W 62368\nADAPTER SPEC\nSpec. for ASUS PD3.0 65W 62368 ADATPER confidential\n|    | 0   | 1                                           | 2         | 3           | 4          | 5           |\n|---:|:----|:--------------------------------------------|:----------|:------------|:-----------|:------------|\n|  0 | REV | Description                                 | Issue Day | Prepared By | Checked By | Approved By |\n|  1 | 01  | First Issue                                 | 2019/6/11 | Roger Hung  |            |             |\n|  2 | 02  | Change Spec Title from \u201cRevised\u201d to \u201c62368\u201d | 2019/9/3  | Roger Hung  |            |             |\n|    |     | Update 2.2.8 Power saving requirement       |           |             |            |             |\n|    |     | Update 2.2.10 Peak load                     |           |             |            |             |\n|    |     | Update 4.4 Leakage Current                  |           |             |            |             |\n|    |     | Update 4.5 Surge & Impulse Test             |           |             |            |             |\n|    |     | Add 4.8 Common Mode Noise (CMN)             |           |             |            |             |\n|  3 |     |                                             |           |             |            |             |\n|  4 |     |                                             |           |             |            |             |\n|  5 |     |                                             |           |             |            |             |\n|  6 |     |                                             |           |             |            |             |\n|  7 |     |                                             |           |             |            |             |\n|  8 |     |                                             |           |             |            |             |\n|  9 |     |                                             |           |             |            |             |\nSpec. for ASUS PD3.0 65W 62368 ADATPER confidential",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "1. Introduction:",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "1. Introduction:"
+                ]
+            },
+            "page_content": "\nThis specification define the input, output, performance characteristics, environment,\nnoise and safety requirements for the power supply.",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "2.1.1 Input Voltage",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "2. Electrical Requirements:",
+                    "2.1 Input Requirements:",
+                    "2.1.1 Input Voltage"
+                ]
+            },
+            "page_content": "\n-Normal voltage: 100~240Vrms\n-Voltage Range: 90~264Vrms",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "2.1.2 Input Frequency",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "2. Electrical Requirements:",
+                    "2.1 Input Requirements:",
+                    "2.1.2 Input Frequency"
+                ]
+            },
+            "page_content": "\n-Normal Frequency: 50~60Hz\n-Frequency Range: 47~63Hz",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "2.1.3 Input Current",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "2. Electrical Requirements:",
+                    "2.1 Input Requirements:",
+                    "2.1.3 Input Current"
+                ]
+            },
+            "page_content": "\n-Under 1.5A Irms at 100Vac & Max. load",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "2.1.4 Configuration",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "2. Electrical Requirements:",
+                    "2.1 Input Requirements:",
+                    "2.1.4 Configuration"
+                ]
+            },
+            "page_content": "\n-2 Conductors (Line, Neutral)\nSpec. for ASUS PD3.0 65W 62368 ADATPER confidential",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "2.1.5 Input Fuse",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "2. Electrical Requirements:",
+                    "2.1 Input Requirements:",
+                    "2.1.5 Input Fuse"
+                ]
+            },
+            "page_content": "\n-An adequate internal fuse on the AC input line shall be provided.",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "2.1.6 Inrush Current",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "2. Electrical Requirements:",
+                    "2.1 Input Requirements:",
+                    "2.1.6 Inrush Current"
+                ]
+            },
+            "page_content": "\n-The inrush current of the power supply shall be less than the rating of its critical\ncomponents (include bridge diode, surge limiting device) for all condition of line\nvoltage of 2.1.1\n-The I^2t shall less than 22% of the fuse, surge limiting device and bridge diode\nrating.",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "2.1.7 Efficiency",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "2. Electrical Requirements:",
+                    "2.1 Input Requirements:",
+                    "2.1.7 Efficiency"
+                ]
+            },
+            "page_content": "\n-The power supply shall meet DOE VI / COC V5 Tier 2 spec measuring at the cable end.\nSpec. for ASUS PD3.0 65W 62368 ADATPER confidential",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "2.2.1 Electrical",
+            "metadata": {
+                "image": [
+                    "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",
+                    "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",
+                    "iVBORw0KGgoAAAANSUhEUgAAATsAAACHCAIAAADmwWkqAAAKg0lEQVR4nO2dsW/TThTHz+g3NPwDKEiMzcCakZaUEQkJJUuFlKFVWzY2ytCBAWgWZsRApWTIgDpUYqvEEFeRkJCaFVRPbO3EAiLZ/BsOjGM7l4tztr9nvp8hSvz87Bc/3z373vlZ+Ivjui61iFnwHQ1yUjm+7wtCiCVcS6FzdnZGLWIWfEeDnFSMsYTYBGPsslrECPiOBjmp0rRYBfjHAuS4E33wHZ2nluEWSwjJFLZYQmyCLZYQmzDcYhuNBrWIWfAdnacWszuZMBqNhBBfv35tt9tF20JKBbM7y2rFabVa8gubqz74jgbJMjDGmmd/f//169dFW0HKCWPsslpxPnz44DjO5eWlEKLf749Go1arVavVhBC1Ws3zvGC5vHgmwgZHg8RYzqAwr+V5nu/73W5X/LkwPjk5kQ3V87wHDx4IIV68eFGv1+v1egpj/jVgHV2IFrM7WXFwcKAIoZ7nOY6Tpz2kHLDFZsjNmzcVUt/319fXczOGlAO22KzY3d2tVqvhJfLOVvLmzZvcLSJlwPF9/+zsrNFoxK+q5cK5osgKCtFCm4Xao74xQognT548e/bs1q1bjUZjb29PCNFut/v9vhDixo0b169f//Xr16tXr/b29iLpH9i/D37Ac95jsQec2R1CbILZnWSt9+/fp9hCRriuW7QJmWPX6ZG1lgLG2AQqlcrbt2+3traKNuQ3rut++/YNxx5SIIyxUa1KpTKZTFKoZ8r29nav1yvaigyx5fTIR0sBZ1D85cuXL47jyOa6vb3twHDv3r3ApBR/2XZATg8QLWZ3/nL79u3gyrPb7WZadXYhBoOBtGo8Hhd2dAgGbLFTdLtd2NvF8Xi8srJStBWkYP4r2gA45HxgNNhciWRqrDiStA2vF7nmVkiRFfW3eXV1tbm5mUIx9R4Vou/fvzebzRSKqfdoSjGH45ZaEfm4KRSZ3SHEJpjdWVaLGAHf0SAnFWMsITbBGLusFjECvqNBTirGWEJswnCM/QdFxAgg3gQRKUjTYhWVkdOJCCGacM4TITZRzH2sdTUB9I3Jf4+sQZHzHos94KLACe4Binn2+CJiBBBvgogUQFwVp7vFxdciRsB3dJ5azO4QYhMQMVaB1cluog++o0FOqgVirONktTIhRJNrQSGSoEaJ/J6nESBpa8W/ZvjNGnxHo8yg8H0/+AMLhVD9n4QQUyTcx6ovaGUcDrdzIUTwM5BmYSsh5Hfbk20ssSn+XdWZWjm+fnxTc3cfSRPPEqmlpgoUOI4TruXNkgjLK+Zw3FIobmxsuK6LfNzUilOTKMSfVhp8JoqCJcHPiDSiqwYkba2wmTMosgbf0SAzKKKV2fxQ/BRJ+LGgmnh5LBYZLsZPW3MGRYHgO5ozKIqBd+D/CFY7mjMoCAT4jgax0OLOxjhWd71EH6sdzRhLIMB3NIiFEC0Wf54nu4ACwXd0nloQLZYQoonj+36ZntBfZrMysb6kMab+Y/5/H2qP+sak2GzgaNi/b7gGBUiWGSSxToyA72iQGRSGr4rxE9CcQWEd+I7mDIpisHrQn+hjtaP5Fg8CAb6jQSy0uLMxjtVdL9HHakcjxtjw0wVhLf0H5RljrQMkghnfF/oMCiP/KrH/izdXqbVovQuQ4070wb+f4gyKmcTL06gvb1i/hpSMqTM+krQNrxfpD7J+0D5SDmJjY8OfLm1xNl1MIFz7IlCU0kB3rjGsQWFcMYfjlkLR7hoUKXK4OaSSA8OkSCSVtpCtK7JcfoloaZqhOBqcQZE1nEGhiQVXxUE1qUhZqXDwTMSPlcggxHZAh7nj9d/iosR14ne2+kP5Vg/6E32sdjRodketlRg24zkhBliLwB/DB7HQ4s4mwFSXaXXXS/Sx2tGIMTaFViSWMn1qHSARzPi+/okZFItqyTG0fPZF8gcwQhSoZcFYMSEkgDUoWIMCcY/6xqTYLGtQlEQkOIOiOPAdzRkUUZiJIWQuQMPcmY6562zc6kF/oo/Vji44uzMrriY+H7vQvhQRm8EcEPwxfBALi+xsIi+kjb/G1p89CTFxNqL8EugqtpDYy1rd9RJ9rHZ08TMoEhte8DkrMicecXlrLoQID/kqNr6I+SRbQCKY8X2VKsaKP81mbvQLrxn5ElEPryymX4er2Hh4HUP/jOBitaMNx9hFRX7o8fSAuU8CSILB8cjycC8QJ11o5ZynrDF4Us0VgZiRzsKpd7RHkrb6W9c0S2aBg5+JLdOffqjVdd2wKPgiF8rPiKmy7oQsKBEJvIEossFEa3MuwmBrSQRzpSQ0RUJ5UilEYalaNMvUuaK4VFM0a7MJohQ5XJAsM0hinRgB39GcQUEIWRiLb8GNY/WABNHHakcXn93B0SIFgu9oEAst7myMY3XXS/Sx2tGMsQQCfEeDWGhxZ2Mcq7teoo/Vji54BgWUSAGDdtbgOxrEQtagYA0KxD3qG5Nis6xBURKR4AyK4sB3tE0zKEajkRBifX09vLDT6ejoEkIMotViHz16JIQ4Pj4OXzT2er1sTCKEzGR+ix2NRvKSulqtPn78WC7c39/3PK/f70dWjs911qGsWsQI+I7OU2v+MHen0zk4OPi99vSweK1W8zwvxV4xsXrQn+hjtaOXyu48fPgwhVa6feWgNatyBckBfEeD5AXndzae5/348aNer4s/QbXf77fbbSnd3d09OjoyaxMhZBbzY2ytVpMjT51OR14Dh7uNi4uL8MogCWiQZDfRB8SbICIFUzE2krQNr3f37t2XL18KIeRo07t374QQrut++vRJCHHnzp1ZihGzLCqJkLMi8nFLrcgDbl4xRQ4XJMsMIiJGAPEmiEgBa1AQYhNssYTYhOEWi5+A5gwK68B3NNYMCkIIDqxBsawWMQK+o0FOKsZYQmyCMXZZLWIEfEeDnFSsQVF8SQT8v88DjnPAOYNiWRExAog3QUQKmI8lxCbYYhM4PT1lhY3yUY53fLPFRjk9Pb1//37RVpBMKEFHzOzOFJVKZTKZCCG63e7W1lbR5hCTKN4bbBHM7kxpyeZK8idPR3/8+DG3fXEGRebInpgxtnxIz47H45WVlaJtSQ9jbFSLXVgh5ONo2VzxT0UFujUorHlC31CBgqurq83NzRSKqfeIfNxSK+Zw3PQVJ5PJ58+fU2xTQB3wFDlckCwziIgYAcSbICIFzO6UjVarNRqNgnFR+e6V4A0skZ/EOthiy8bJyUm9Xvd9X74t6fj4WAgxHA7le5KGw6GIvZCFWARbbDn5+fOnLDFdrVblkl6vd3l5Kb+HX8iSSLAmgSPFlTQBZ21tTXr2/Pw8WLi6unp4eBj8FEIcHh7KFdbW1uTC8AoEE2Z3ltUCZDgc+r5fq9XmrinjcGRWpuM4+cdYfEejnFRFdxkkK1ZXV8M/hRAXFxdhaRBR4192dnZysZEsDGPsslqwROZs7ezshKPu8+fPFbpHR0c5v9Eb39EoJ1XRXQYxTLPZPD8/bzab8qeMtMGdqvwSLBwMBvLnYDAYDAZS+vTp0yIMJ1pwBsWyImIEEG+CiBQwu0OITbDFEmITbLGE2ASfjyXEJpjdWVaLGAHf0SAnFWMsITbBGLusFjECvqNBTqr/AQi9G6awkJTNAAAAAElFTkSuQmCC",
+                    "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",
+                    "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",
+                    "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"
+                ],
+                "ancestors": [
+                    "2. Electrical Requirements:",
+                    "2.2 Output Requirements:",
+                    "2.2.1 Electrical"
+                ]
+            },
+            "page_content": "\n|    | 0             | 1                       | 2                                                 | 3           | 4            | 5         |\n|---:|:--------------|:------------------------|:--------------------------------------------------|:------------|:-------------|:----------|\n|  0 | Item          | Content                 | Specification                                     |             |              |           |\n|  1 | Vendor ID     |                         | ASUS (0x0b05)                                     |             |              |           |\n|  2 | Safety Rating |                         | 5V/3A, 9V/3A , 15V/3A , 20V/3.25A                 |             |              |           |\n|  3 | PD Mode       | PDO                     | 5V Fixed                                          | 9V Fixed    | 15V Fixed    | 20V Fixed |\n|  4 |               | Output Voltage Range    | 4.85~5.5V                                         | 8.55V~9.45V | 14.25~15.75V | 19~21V    |\n|  5 |               | Output Voltage Ripple   | 180mV                                             | 200mV       | 300mV        | 300mV     |\n|  6 |               | Output Current Range    | 0~3A                                              | 0~3A        | 0~3A         | 0~3.25A   |\n|  7 |               | Output Current Ripple   | 100mA                                             | N/A         | N/A          | N/A       |\n|  8 | *Transient    | Transient Current Range | 0.05A ~ Full Load                                 |             |              |           |\n|    | for 15V/20V   |                         |                                                   |             |              |           |\n|  9 |               | Transient Frequency     | 100Hz ~ 100KHz                                    |             |              |           |\n| 10 |               | Slew rate               | 2.5A/us                                           |             |              |           |\n| 11 |               | Criteria                | Output voltage regulation shall be less than \u00b1 5% |             |              |           |\n* Ripple noise measure by 20M Hz bandwidth in oscilloscope and applied 0.1uF high frequency capacitor and\n10uF electrolytic capacitor across output connector terminals.\nSpec. for ASUS PD3.0 65W 62368 ADATPER confidential\nTransient for 5V/9V\ncondition1 For 5V Mode\nOutput voltage range:\n-Max. 5.8V\n50% load\n-Min. 4.6 V\n1A/\u00b5s\nslew-rate\nFor 9V Mode\nOutput voltage shall within +/-5%\ncondition2\nMax load\n1A/\u00b5s\nslew-rate\n50% load\nSpec. for ASUS PD3.0 65W 62368 ADATPER confidential",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "2.2.2 Output Voltage Requirement",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "2. Electrical Requirements:",
+                    "2.2 Output Requirements:",
+                    "2.2.2 Output Voltage Requirement"
+                ]
+            },
+            "page_content": "\n-The total output voltage regulation shall be meet the spec., including the effects of\nAC line voltage variation, load current, ripple and noise.\n-The effect of transient load changes is included in this limit.\n- Must comply with \u201cUniversal Serial Bus Power Delivery Specification Rev. 3.0\u201d.",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "2.2.3 Overshoot",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "2. Electrical Requirements:",
+                    "2.2 Output Requirements:",
+                    "2.2.3 Overshoot"
+                ]
+            },
+            "page_content": "\n-The output overshoot at turn on shall not exceed 10% of normal voltage value with or\nwithout the load connected.",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "2.2.4 Hold Up Time",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "2. Electrical Requirements:",
+                    "2.2 Output Requirements:",
+                    "2.2.4 Hold Up Time"
+                ]
+            },
+            "page_content": "\n-The power supply shall maintain voltage regulation within the specified limits in\nparagraph 2.2.1 for at least 5ms after lost of input voltage measured at 100Vac and\nmaximum output load.",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "2.2.5 Output Rise Time",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "2. Electrical Requirements:",
+                    "2.2 Output Requirements:",
+                    "2.2.5 Output Rise Time"
+                ]
+            },
+            "page_content": "\n-At turn on the rise time of output voltage shall be less than 40ms.\n\uff0aMeasured from the 10% point to the 90% point of the normal.\nSpec. for ASUS PD3.0 65W 62368 ADATPER confidential",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "2.2.6 Turn On Delay Time",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "2. Electrical Requirements:",
+                    "2.2 Output Requirements:",
+                    "2.2.6 Turn On Delay Time"
+                ]
+            },
+            "page_content": "\n-No Load Power Consumption supply shall reach voltage regulation within the\nspecified limits in table 2.2.1 for 3sec max. after AC input the power supply.\n-The input voltage measure at 100/240Vac and at maximum output load.",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "2.2.7 No Load Power Consumption",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "2. Electrical Requirements:",
+                    "2.2 Output Requirements:",
+                    "2.2.7 No Load Power Consumption"
+                ]
+            },
+            "page_content": "\n-Maximum no load power consumption is less than 0.075W at 115Vac/60Hz and\n230Vac/50Hz",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "2.2.8 Power saving requirement",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "2. Electrical Requirements:",
+                    "2.2 Output Requirements:",
+                    "2.2.8 Power saving requirement"
+                ]
+            },
+            "page_content": "\n|    | 0            | 1             |\n|---:|:-------------|:--------------|\n|  0 | Output Power | Pin Power (W) |\n|    | (W)          |               |\n|  1 | 18           | < 21          |\n|  2 | 11           | < 14          |\n|  3 | 5~6.5        | Eff. > 80%    |\n|  4 | 3            | < 5           |\n|  5 | 1.65         | < 3           |\n|  6 | 1.5          | < 2.2         |\n|  7 | 1            | < 1.6         |\n|  8 | 0.25         | <0.48         |\n-Vin=115Vac/60Hz and 230Vac/50Hz\nSpec. for ASUS PD3.0 65W 62368 ADATPER confidential",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "2.2.9 Surge load ( For 20V/15V ) :",
+            "metadata": {
+                "image": [
+                    "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"
+                ],
+                "ancestors": [
+                    "2. Electrical Requirements:",
+                    "2.2 Output Requirements:",
+                    "2.2.9 Surge load ( For 20V/15V ) :"
+                ]
+            },
+            "page_content": "\nThe adapter shall support a surge load with 120% of maximum load for 1min, maximum\nload for 9min and output voltage shall be more than 18.5V/13.7V at 100-240Vac/50Hz-60Hz.",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "2.2.10 Peak load ( For 20V/15V ) :",
+            "metadata": {
+                "image": [
+                    "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"
+                ],
+                "ancestors": [
+                    "2. Electrical Requirements:",
+                    "2.2 Output Requirements:",
+                    "2.2.10 Peak load ( For 20V/15V ) :"
+                ]
+            },
+            "page_content": "\nThe adapter shall support below loading condition without any damage, safety issues\nand protection happened. The output voltage shall be more than 17.8V (20V Mode) /\n13.0V (15V Mode) at input voltage 100-240V/50Hz-60Hz.\n|    | 0    | 1     | 2      | 3    | 4     |\n|---:|:-----|:------|:-------|:-----|:------|\n|  0 | Spec | Ton   | Toff   | A    | B     |\n|  1 | 1    | 2ms   | 18ms   | 200% | 90%   |\n|  2 | 2    | 250us | 2.25ms | 225% | 87.5% |\nSpec. for ASUS PD3.0 65W 62368 ADATPER confidential",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "2.2.11 Hot Plugging",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "2. Electrical Requirements:",
+                    "2.2 Output Requirements:",
+                    "2.2.11 Hot Plugging"
+                ]
+            },
+            "page_content": "\n-Plugging a live AC adapter into the system with 100uF (for 5V Mode) and\n1000uF (for 15V/20V Mode) capacitance shall not trigger any protections\nor cause the adapter to shut down.",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "2.2.12 Voltage Dips (for 20V Mode)",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "2. Electrical Requirements:",
+                    "2.2 Output Requirements:",
+                    "2.2.12 Voltage Dips (for 20V Mode)"
+                ]
+            },
+            "page_content": "\n-Follow the test item \u201c >95% reduction , 0.5 period \u201d in IEC 61000-4-11 Standard.\n-The output voltage shall be more than 14.5V at the below condition :\n(a) AC Input = 100Vac/50Hz\n(b) Load = 45W constant power (instead of constant current)\nSpec. for ASUS PD3.0 65W 62368 ADATPER confidential",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "2.3.1 Over Current Protection (OCP)",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "2. Electrical Requirements:",
+                    "2.3 Power Output Protection:",
+                    "2.3.1 Over Current Protection (OCP)"
+                ]
+            },
+            "page_content": "\n-The maximum constant current shall be less than 3.6A for Vo < 15V at 90Vac/264Vac.\n-The maximum constant current shall be 3.9A ~ 5A for Vo \u2265 15V at 90Vac/264Vac.\n-Meet LPS.\n-The adapter shall be DC latch off and no component damaged.\n-When fault condition is removed and re-plug in DC plug , the output voltage must return\nto the normal condition.\n-The adapter cannot have any safety issue or be damaged when the load condition is\nbefore over current protection point (OTP is allowed).",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "2.3.2 Over Voltage Protection (OVP)",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "2. Electrical Requirements:",
+                    "2.3 Power Output Protection:",
+                    "2.3.2 Over Voltage Protection (OVP)"
+                ]
+            },
+            "page_content": "\n-Maximum output voltage can\u2019t be over 35% for Vo \u2265 15V and 50% for other Vo rating.\n-The adapter shall be AC latch off and no component damaged.\n-When fault condition is removed and re-plug in AC plug , the output voltage must return\nto the normal condition.\nSpec. for ASUS PD3.0 65W 62368 ADATPER confidential",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "2.3.3 Short Circuit Protection (SCP)",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "2. Electrical Requirements:",
+                    "2.3 Power Output Protection:",
+                    "2.3.3 Short Circuit Protection (SCP)"
+                ]
+            },
+            "page_content": "\n-The adapter shall be DC latch off and no component damaged.\n-When fault condition is removed and re-plug in DC plug , the output voltage must\nreturn to the normal condition.",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "2.3.4 Over Temperature Protection (OTP)",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "2. Electrical Requirements:",
+                    "2.3 Power Output Protection:",
+                    "2.3.4 Over Temperature Protection (OTP)"
+                ]
+            },
+            "page_content": "\n-The adapter shall be AC or DC latch off and no component damaged.\n-No fire and no melted of the enclosure.\n-When fault condition is removed and re-plug in AC or DC plug , the output\nvoltage must return to the normal condition.\nSpec. for ASUS PD3.0 65W 62368 ADATPER confidential",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "3.1 MTBF:",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "3. Reliability:",
+                    "3.1 MTBF:"
+                ]
+            },
+            "page_content": "\n-The power supply shall be designed and produced to have a MTBF of 150,000 operation\nhours at 90% confidence \u2013 level while operating under the following condition\n-AC input voltage: 100 and 240Vrms\n-Ambient Temp. : 25\u00b0C",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "3.2 Life/Power On Hours",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "3. Reliability:",
+                    "3.2 Life/Power On Hours"
+                ]
+            },
+            "page_content": "\n-The power supply must be designed to operate for 13,140 power on hours.\n-AC input voltage: 100 and 240Vrms\n-Ambient Temp. : 25\u00b0C",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "3.3 Burn-in Test Condition",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "3. Reliability:",
+                    "3.3 Burn-in Test Condition"
+                ]
+            },
+            "page_content": "\n- More than 4 hours at 40\u00b0C, normal input voltage.\n- AC on/off must be tested.",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "3.4 Surge Voltage (For 450V Type Only)",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "3. Reliability:",
+                    "3.4 Surge Voltage (For 450V Type Only)"
+                ]
+            },
+            "page_content": "\n-Follow ASUS RD Test Plan for NB Adapter Rev04\nSpec. for ASUS PD3.0 65W 62368 ADATPER confidential",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "4.1 Safety Certificate",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "4. Safety & EMC:",
+                    "4.1 Safety Certificate"
+                ]
+            },
+            "page_content": "\n- The power supply unit shall follow the safety standard ( IEC60950 , IEC62368 )\n- Certificate : Follow safety control table\n- Trademark : ASUS",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "4.2 Insulation Resistance",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "4. Safety & EMC:",
+                    "4.2 Insulation Resistance"
+                ]
+            },
+            "page_content": "\n- Insulation resistance shall be > 30M ohm at 500Vdc between primary Live, Neutral and\nsecondary.",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "4.3 Hi-Pot Test",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "4. Safety & EMC:",
+                    "4.3 Hi-Pot Test"
+                ]
+            },
+            "page_content": "\n-Primary to Secondary : 3.0KVac or 4242Vdc for 1minute\n-Primary to F.G :1.5KVac for 1minute\nSpec. for ASUS PD3.0 65W 62368 ADATPER confidential",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "4.4 Leakage Current",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "4. Safety & EMC:",
+                    "4.4 Leakage Current"
+                ]
+            },
+            "page_content": "\n-The power supply leakage current shall be less than 20 uA @240Vac/50Hz\n-Test with AC cable 90cm (DT Type)",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "4.5 Surge & Impulse Test",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "4. Safety & EMC:",
+                    "4.5 Surge & Impulse Test"
+                ]
+            },
+            "page_content": "\n-Lighting Surge : \u00b11KV (L-N) ; \u00b1 2KV (L-FG; N-FG)\n-Impulse Noise Test: 1KV\n-Criteria A",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "4.6 EMI standard",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "4. Safety & EMC:",
+                    "4.6 EMI standard"
+                ]
+            },
+            "page_content": "\n-The power supply shall comply with a following RFI/EMI standards when tested in a\nsystem configuration.\n-F.C.C part15\n-CISPR22 class B\n-The limits shall be meet with a margin more than 6dB with all system applicable.",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "4.7 Electrostatic Discharge (ESD)",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "4. Safety & EMC:",
+                    "4.7 Electrostatic Discharge (ESD)"
+                ]
+            },
+            "page_content": "\nThis Adapter is capable to withstand ESD test voltage at any point around the enclosure\nas below.\n\u00b115KV air discharge Performance Criterion B\n\u00b112KV air discharge Performance Criterion A.\n\u00b18KV contact discharge Performance Criterion A.",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "4.8 Common Mode Noise (CMN)",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "4. Safety & EMC:",
+                    "4.8 Common Mode Noise (CMN)"
+                ]
+            },
+            "page_content": "\n-Follow ASUS RD Test Plan for NB Adapter Rev05\nSpec. for ASUS PD3.0 65W 62368 ADATPER confidential",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "5.1 Temperature",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "5. Environment Requirements:",
+                    "5.1 Temperature"
+                ]
+            },
+            "page_content": "\n-Operation: 0~40\u00b0C ;Storage: -30~80\u00b0C",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "5.2 Humidity (no condensing)",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "5. Environment Requirements:",
+                    "5.2 Humidity (no condensing)"
+                ]
+            },
+            "page_content": "\n-Operation: 5~90% ; Storage: 5~95%",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "5.3 Surface Temperature rise",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "5. Environment Requirements:",
+                    "5.3 Surface Temperature rise"
+                ]
+            },
+            "page_content": "\n- Follow ASUS RD Test Plan for NB Adapter Rev04\nSpec. for ASUS PD3.0 65W 62368 ADATPER confidential",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "5.4 Acoustic test:",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "5. Environment Requirements:",
+                    "5.4 Acoustic test:"
+                ]
+            },
+            "page_content": "\nInput Condition\nVin: 90Vac~264Vac Frequency : 47Hz to 63 Hz\nLoad Condition:\nDynamic Load : Follow ASUS Transient Load Current Spec\nStatic Load : From 0A to Full Load , 0.1A per step\nNB ADAPTER SPEC :\nStatic Load\nWM Type : Microphone at a distance of 10cm from the surface and noise level is less than 20dB\nDesktop Type : Microphone at a distance of 5cm from the surface and noise level is less than 20dB\nDynamic Load\nWM Type : Microphone at a distance of 10cm from the surface and noise level is less than 25dB\nDesktop Type : Microphone at a distance of 5cm from the surface and noise level is less than 25dB\nSpec. for ASUS PD3.0 65W 62368 ADATPER confidential",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "6.1 Bending test:",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "6. Mechanical Requirements:",
+                    "6.1 Bending test:"
+                ]
+            },
+            "page_content": "\n- 200g weight,90\u00b0 angle to each side(Total angle 180\u00b0),3000 cycles of arbitrary\ndirection 40 cycles/min.\nDisconnection rate <= 10% between case to S/R\nDisconnection rate <= 30% between plug to coil\nWithout damage to the insulations",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "6.2 Winding test:",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "6. Mechanical Requirements:",
+                    "6.2 Winding test:"
+                ]
+            },
+            "page_content": "\n-200g weight,1080\u00b0 angle on X-axis and Y-axis ,500 cycles of each direction 4 cycles/min.\nDisconnection rate of the wire shall be less than 30%",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "6.3 Drop Test",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "6. Mechanical Requirements:",
+                    "6.3 Drop Test"
+                ]
+            },
+            "page_content": "\nDrop 8 times (6 faces and 2 AC plug corners) on each cycles from a height of 1.0M\nonto a concrete surface. Increase the height in steps of 0.2M until the case is broken. Must\nhas 10cm margin during design stages\nElectrical\n- The unit should meet all specification and no function error after test.1.1M testing\nMechanical\n- There shall be no visual damage and safety concern after 1.5M testing\nSpec. for ASUS PD3.0 65W 62368 ADATPER confidential",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "6.4 Tensile Test :",
+            "metadata": {
+                "image": [
+                    "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"
+                ],
+                "ancestors": [
+                    "6. Mechanical Requirements:",
+                    "6.4 Tensile Test :"
+                ]
+            },
+            "page_content": "\nLoad : 10Kgf at Plug end and Bushing each for\n1minute\nAngle: 90\u00b0 /180\u00b0\nCriteria: The withdrawal of cord should be less than\n2mm or without disconnection of cord",
+            "type": "Document"
+        }
+    },
+    {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+            "langchain",
+            "schema",
+            "document",
+            "Document"
+        ],
+        "kwargs": {
+            "id": "6.5 DC Power Cord Wire Push Test",
+            "metadata": {
+                "image": [],
+                "ancestors": [
+                    "6. Mechanical Requirements:",
+                    "6.5 DC Power Cord Wire Push Test"
+                ]
+            },
+            "page_content": "\nTest condition : a) Fixture: 6mm, 10.5mm & 20mm aluminum block and \u03c812mm\naluminum bar\nb) Increase pressure by speeding up 2 mm per minute on the tested\nitem until maximum force reached to 130 kg\nCriteria: After testing the V+ wire and Ground wire can\u2019t short\nSpec. for ASUS PD3.0 65W 62368 ADATPER confidential",
+            "type": "Document"
+        }
+    }
+]

@@ -1,0 +1,750 @@
+[
+    {
+        "type": "text",
+        "element_ind": 8,
+        "content": "It is normal for 100 ~ 240Vac input AC voltage.",
+        "ancestors": [
+            "1. ELECTRICAL",
+            "1.1 Input Characteristics:",
+            "1.1.1 Nominal Voltage"
+        ],
+        "retrieval_ground_truth": [
+            "2.1.1 Input Voltage"
+        ]
+    },
+    {
+        "type": "text",
+        "element_ind": 10,
+        "content": "The Adapter shall operate from 90 ~ 264Vac. ",
+        "ancestors": [
+            "1. ELECTRICAL",
+            "1.1 Input Characteristics:",
+            "1.1.2 Input Voltage Range"
+        ],
+        "retrieval_ground_truth": [
+            "2.1.1 Input Voltage"
+        ]
+    },
+    {
+        "type": "text",
+        "element_ind": 12,
+        "content": "It is normal for 50Hz or 60Hz and single phase.",
+        "ancestors": [
+            "1. ELECTRICAL",
+            "1.1 Input Characteristics:",
+            "1.1.3 Rated Frequency"
+        ],
+        "retrieval_ground_truth": [
+            "2.1.2 Input Frequency"
+        ]
+    },
+    {
+        "type": "text",
+        "element_ind": 14,
+        "content": "The Adapter shall operate with an input frequency from 47 Hz to 63 Hz.",
+        "ancestors": [
+            "1. ELECTRICAL",
+            "1.1 Input Characteristics:",
+            "1.1.4 Frequency Range"
+        ],
+        "retrieval_ground_truth": [
+            "2.1.2 Input Frequency"
+        ]
+    },
+    {
+        "type": "text",
+        "element_ind": 16,
+        "content": "1.5A Max at 100Vac input voltage.",
+        "ancestors": [
+            "1. ELECTRICAL",
+            "1.1 Input Characteristics:",
+            "1.1.5 Input Current"
+        ],
+        "retrieval_ground_truth": [
+            "2.1.3 Input Current"
+        ]
+    },
+    {
+        "type": "text",
+        "element_ind": 18,
+        "content": "The I2t shall less then 22% of the Fuse.",
+        "ancestors": [
+            "1. ELECTRICAL",
+            "1.1 Input Characteristics:",
+            "1.1.6 Inrush Current Limit (cold start) "
+        ],
+        "retrieval_ground_truth": [
+            "2.1.6 Inrush Current"
+        ]
+    },
+    {
+        "type": "text",
+        "element_ind": 21,
+        "content": "(Warm up after 30min )",
+        "ancestors": [
+            "1. ELECTRICAL",
+            "1.1 Input Characteristics:",
+            "1.1.7 Efficiency (Warm Up)",
+            "1.1.7.1 Nominal input voltage, maximum load and measured at the end of DC cable. "
+        ],
+        "retrieval_ground_truth": []
+    },
+    {
+        "type": "text",
+        "element_ind": 24,
+        "content": "average efficiency of 25%,50%,75% and 100% load tested at 115Vac/60Hz and 230Vac/50Hz.(Warm up after 30min)\n                   The efficiency at 10% loading shall be more than                                            76.835% (5V); 82.295%(9V) ; 83.853%(15V) 84%(20V) measure at 115Vac/60Hz and 230Vac/50Hz",
+        "ancestors": [
+            "1. ELECTRICAL",
+            "1.1 Input Characteristics:",
+            "1.1.7 Efficiency (Warm Up)",
+            "1.1.7.2 Active mode efficiency:"
+        ],
+        "retrieval_ground_truth": [
+            "2.1.7 Efficiency"
+        ]
+    },
+    {
+        "type": "text",
+        "element_ind": 28,
+        "content": "5V only: Maximum non-load power consumption is less than 0.075W at 115Vac/60Hz and 230Vac/50Hz",
+        "ancestors": [
+            "1. ELECTRICAL",
+            "1.1 Input Characteristics:",
+            "1.1.8 No Load Power Consumption"
+        ],
+        "retrieval_ground_truth": [
+            "2.2.7 No Load Power Consumption"
+        ]
+    },
+    {
+        "type": "text",
+        "element_ind": 30,
+        "content": "115Vac/60Hz , 230Vac/50Hz. (20V)",
+        "ancestors": [
+            "1. ELECTRICAL",
+            "1.1 Input Characteristics:",
+            "1.1.9 Power saving requirement"
+        ],
+        "retrieval_ground_truth": [
+            "2.2.8 Power saving requirement"
+        ]
+    },
+    {
+        "type": "text",
+        "element_ind": 34,
+        "content": "               The rated output voltage is specified at 5V / 9V / 15 / 20V.",
+        "ancestors": [
+            "1. ELECTRICAL",
+            "1.2 Output Characteristics:",
+            "1.2.1 Rated Voltage"
+        ],
+        "retrieval_ground_truth": [
+            "2.2.1 Electrical"
+        ]
+    },
+    {
+        "type": "text",
+        "element_ind": 39,
+        "content": "This Adapter can work from 0 A to 3 A (5V~15V) and 0 A to 3.25 A (20V) output voltage is in section 1.2.2 specified range.",
+        "ancestors": [
+            "1. ELECTRICAL",
+            "1.2 Output Characteristics:",
+            "1.2.3 Current"
+        ],
+        "retrieval_ground_truth": [
+            "2.2.1 Electrical"
+        ]
+    },
+    {
+        "type": "text",
+        "element_ind": 42,
+        "content": "Output ripple voltage is 180mV / 200mV / 300mV / 300mV peak to peak.\n                Measured methods:\n                T1. Performed by 20M Hz bandwidth in oscilloscope.\n                T2. Applied 0.1uF high frequency capacitor and 10uF electrolytic capacitor across output connector terminals.   \n                T3. Measured at the end of DC cable. \n                T4. 47Hz and 63Hz tested at 90Vac and 264Vac. @ 25\u2103",
+        "ancestors": [
+            "1. ELECTRICAL",
+            "1.2 Output Characteristics:",
+            "1.2.4 Output Ripple and Noise"
+        ],
+        "retrieval_ground_truth": [
+            "2.2.1 Electrical"
+        ]
+    },
+    {
+        "type": "text",
+        "element_ind": 50,
+        "content": "The Adapter shall switch on in less than 3 seconds (5V only) at input voltage is 100Vac~240Vac.",
+        "ancestors": [
+            "1. ELECTRICAL",
+            "1.2 Output Characteristics:",
+            "1.2.5 Turn On delay time"
+        ],
+        "retrieval_ground_truth": [
+            "2.2.6 Turn On Delay Time"
+        ]
+    },
+    {
+        "type": "text",
+        "element_ind": 52,
+        "content": "The output voltage shall be sustained 5mS (20V only) within regulation requirement after loss 100Vac and maximum load.",
+        "ancestors": [
+            "1. ELECTRICAL",
+            "1.2 Output Characteristics:",
+            "1.2.6 Hold \u2013up time"
+        ],
+        "retrieval_ground_truth": [
+            "2.2.4 Hold Up Time"
+        ]
+    },
+    {
+        "type": "text",
+        "element_ind": 55,
+        "content": "DC output rise time from 10% to 90% of output voltage shall be less than 40mS (5V only) at nominal line and maximum load.",
+        "ancestors": [
+            "1. ELECTRICAL",
+            "1.2 Output Characteristics:",
+            "1.2.7 Rise time"
+        ],
+        "retrieval_ground_truth": [
+            "2.2.5 Output Rise Time"
+        ]
+    },
+    {
+        "type": "text",
+        "element_ind": 57,
+        "content": "The output overshoot at turn on shall not exceed 10% of normal voltage value with or without the load connected.",
+        "ancestors": [
+            "1. ELECTRICAL",
+            "1.2 Output Characteristics:",
+            "1.2.8 Overshoot"
+        ],
+        "retrieval_ground_truth": [
+            "2.2.3 Overshoot"
+        ]
+    },
+    {
+        "type": "text",
+        "element_ind": 59,
+        "content": "The adapter shall support below loading condition without and damage, safety issues and protection happen. The output voltage shall more than 18.3V (20V mode) / 13.5V (15V mode) at input voltage is 100-240Vac/50Hz-60Hzin 25\u2103. \n ",
+        "ancestors": [
+            "1. ELECTRICAL",
+            "1.2 Output Characteristics:",
+            "1.2.9 Peak load (20V/15V only)"
+        ],
+        "retrieval_ground_truth": [
+            "2.2.10 Peak load ( For 20V/15V ) :"
+        ]
+    },
+    {
+        "type": "text",
+        "element_ind": 63,
+        "content": "The adapter shall support a surge load with 120% of maximum load for 1min , maximum load for 9min and Output Voltage more than 18.5V /13.7V at input voltage is 100-240Vac in 25\u2103. ",
+        "ancestors": [
+            "1. ELECTRICAL",
+            "1.2 Output Characteristics:",
+            "1.2.10 Surge load (20V/15V only)"
+        ],
+        "retrieval_ground_truth": [
+            "2.2.9 Surge load ( For 20V/15V ) :"
+        ]
+    },
+    {
+        "type": "text",
+        "element_ind": 66,
+        "content": "(1) For 5V Output and 9V output must to meet condition 1 and condition 2\n(2) The adapter must within regulation when applied a step load from 0.05A to 100% load at \n2.5A/us slew rate , 50% Duty cycle , Frequency be operated 100Hz/100KHz in 25\u2103.\nThe output voltage will be performed 13.5~16.5(15V); 19 ~ 21V(20V)",
+        "ancestors": [
+            "1. ELECTRICAL",
+            "1.2 Output Characteristics:",
+            "1.2.11 Load transient response"
+        ],
+        "retrieval_ground_truth": [
+            "2.2.1 Electrical"
+        ]
+    },
+    {
+        "type": "text",
+        "element_ind": 73,
+        "content": "Plugging a live AC adapter into the system with 100uF (for 5V Mode) and 1000uF (for 15V/20V Mode)    capacitance shall not trigger any protections or cause the adapter to shut down",
+        "ancestors": [
+            "1. ELECTRICAL",
+            "1.2 Output Characteristics:",
+            "1.2.12 Hot Plugging"
+        ],
+        "retrieval_ground_truth": [
+            "2.2.11 Hot Plugging"
+        ]
+    },
+    {
+        "type": "text",
+        "element_ind": 75,
+        "content": "-Follow the test item \u201c >95% reduction , 0.5 period \u201d in IEC 61000-4-11 Standard. -The output voltage shall be more than 14.5V at the below condition : \n(a) AC Input = 100Vac/50Hz \n(b) Load =33W~ 45W constant power (instead of constant current)\n -Follow the test item \u201c30% reduction, 25 periods\u201d in IEC 61000-4-11 Standard. -Criteria: A \n(a) AC Input = 100Vac/50Hz \n(b) Load = 33W~ 45W constant power (instead of constant current)",
+        "ancestors": [
+            "1. ELECTRICAL",
+            "1.2 Output Characteristics:",
+            "1.2.13 Voltage Dips (for 20V Mode)"
+        ],
+        "retrieval_ground_truth": [
+            "2.2.12 Voltage Dips (for 20V Mode)"
+        ]
+    },
+    {
+        "type": "text",
+        "element_ind": 86,
+        "content": "The adaptor shall be DC latch-off with 60ms deglitch time. (It will enter into normal condition by re-plug in DC plug)",
+        "ancestors": [
+            "1. ELECTRICAL",
+            "1.2 Output Characteristics:",
+            "1.2.14 Protection ",
+            "1.2.14.2 Over Current Protection"
+        ],
+        "retrieval_ground_truth": [
+            "2.3.1 Over Current Protection (OCP)"
+        ]
+    },
+    {
+        "type": "text",
+        "element_ind": 103,
+        "content": " The AC Adapter shall be capable of operating at full load with an ambient temperature range of 0 \u2103\n to +40\u2103.",
+        "ancestors": [
+            "2. Environmental ",
+            "2.1 Temperature     ",
+            "2.1.1 Operating"
+        ],
+        "retrieval_ground_truth": [
+            "5.1 Temperature"
+        ]
+    },
+    {
+        "type": "text",
+        "element_ind": 106,
+        "content": " The AC Adapter shall be capable of withstanding ambient temperature from -30\u2103 to +80\u2103.",
+        "ancestors": [
+            "2. Environmental ",
+            "2.1 Temperature     ",
+            "2.1.2 Shipping/Storage"
+        ],
+        "retrieval_ground_truth": [
+            "5.1 Temperature"
+        ]
+    },
+    {
+        "type": "text",
+        "element_ind": 109,
+        "content": "The AC Adapter shall be capable of operation in relative humidity of 5% to 90% relative humidity, \nnon-condensing.",
+        "ancestors": [
+            "2. Environmental ",
+            "2.2 \t\t2.2\t  Humidity",
+            "2.2.1 Operating"
+        ],
+        "retrieval_ground_truth": [
+            "5.2 Humidity (no condensing)"
+        ]
+    },
+    {
+        "type": "text",
+        "element_ind": 112,
+        "content": "The AC Adapter shall be capable of withstanding ambient relative humidity of 5% to 95% relative\nhumidity, non-condensing.     ",
+        "ancestors": [
+            "2. Environmental ",
+            "2.2 \t\t2.2\t  Humidity",
+            "2.2.2 Shipping/storage"
+        ],
+        "retrieval_ground_truth": [
+            "5.2 Humidity (no condensing)"
+        ]
+    },
+    {
+        "type": "text",
+        "element_ind": 116,
+        "content": "         This is to follow the norm of IEC-61000-4-5 Level 3 requirements.\n         L-N         +-1.5KV/1.2 * 50uS 5 times No function error.     \n         L-FG, N-FG  +-2.5KV/1.2 * 50uS 5 times No function error.       ",
+        "ancestors": [
+            "2. Environmental ",
+            "2.3      2.3   Immunity",
+            "2.3.1 Lightning Surge Immunity"
+        ],
+        "retrieval_ground_truth": [
+            "4.5 Surge & Impulse Test"
+        ]
+    },
+    {
+        "type": "text",
+        "element_ind": 120,
+        "content": "       This is to follow the norm of IEC-61000-4-4/1995\n        (EN 61000-4-4) Level 3 requirements",
+        "ancestors": [
+            "2. Environmental ",
+            "2.3      2.3   Immunity",
+            "2.3.2 Electric Fast Transients(EFT)"
+        ],
+        "retrieval_ground_truth": []
+    },
+    {
+        "type": "text",
+        "element_ind": 123,
+        "content": "This Adapter is capable to withstand ESD test voltage at any point around the enclosure as below. \n\u00b115KV air discharge performance criterion B.\n\u00b112KV air discharge performance criterion A.\n\u00b18KV contact discharge performance criterion A.",
+        "ancestors": [
+            "2. Environmental ",
+            "2.4    \t2.4 \tElectrostatic Discharge (ESD)"
+        ],
+        "retrieval_ground_truth": [
+            "4.7 Electrostatic Discharge (ESD)"
+        ]
+    },
+    {
+        "type": "text",
+        "element_ind": 128,
+        "content": "Ambient 40\u2103; input voltage 100Vac/240Vac case temperature rise\u226640\u2103 with system loading (95%) on\nbakelite.",
+        "ancestors": [
+            "2. Environmental ",
+            "2.5 Surface Temperature rise"
+        ],
+        "retrieval_ground_truth": []
+    },
+    {
+        "type": "text",
+        "element_ind": 132,
+        "content": "Between AC input and secondary AC 3KV test time 1 minute; 100% of line products of this Adapter shall be applied 3000Vac for 2 seconds between AC input terminals and output terminals. Cut off current 10mA.",
+        "ancestors": [
+            "2. Environmental ",
+            "2.6 Dielectric Withstand Voltage (HI \u2013 POT)"
+        ],
+        "retrieval_ground_truth": [
+            "4.3 Hi-Pot Test"
+        ]
+    },
+    {
+        "type": "text",
+        "element_ind": 134,
+        "content": "Y cap no more than 220pF.\nLeakage current no more than 20uA(max) at 240Vac/50Hz.for delta product line.",
+        "ancestors": [
+            "2. Environmental ",
+            "2.2    Leakage Current "
+        ],
+        "retrieval_ground_truth": [
+            "4.4 Leakage Current"
+        ]
+    },
+    {
+        "type": "text",
+        "element_ind": 137,
+        "content": "The insulation resistance shall be not less than 30M ohms after application of 500Vdc/10mA for 1 minute.  ",
+        "ancestors": [
+            "2. Environmental ",
+            "2.3    Insulation Resistance "
+        ],
+        "retrieval_ground_truth": []
+    },
+    {
+        "type": "text",
+        "element_ind": 139,
+        "content": "The adapter shall comply with the following national standards.\nFCC Part 15.\nCISPR 22 Class B.\nThe limits shall be meet with a margin more than 4dB with all system applicable.",
+        "ancestors": [
+            "2. Environmental ",
+            "2.4   Electromagnetic Interference (EMI)"
+        ],
+        "retrieval_ground_truth": [
+            "4.6 EMI standard"
+        ]
+    },
+    {
+        "type": "text",
+        "element_ind": 145,
+        "content": "The calculated MTBF shall be 150,000 hours of continuous operation at 25\u2103, \nmaximum load and 100Vac / 240Vac. ",
+        "ancestors": [
+            "2. Environmental ",
+            "2.5  MTBF",
+            "2.5.1 MTBF (Mean-Time-Between-Failures) Calculation"
+        ],
+        "retrieval_ground_truth": [
+            "3.1 MTBF:"
+        ]
+    },
+    {
+        "type": "text",
+        "element_ind": 148,
+        "content": "  The lifetime is least 26280 hours at 25\u2103at 100Vac/60Hz and 240Vac/50Hz,DC output load : 95%.",
+        "ancestors": [
+            "2. Environmental ",
+            "2.5  MTBF",
+            "2.5.2 Electrolytic aluminum cap. Lifetime"
+        ],
+        "retrieval_ground_truth": []
+    },
+    {
+        "type": "text",
+        "element_ind": 150,
+        "content": "Meet IEC 60950-1\nMeet IEC 62368-1\nMeet LPS\nMeet DOE Level6\nMeet COC Tier2",
+        "ancestors": [
+            "2. Environmental ",
+            "2.6 Safety request"
+        ],
+        "retrieval_ground_truth": []
+    },
+    {
+        "type": "text",
+        "element_ind": 156,
+        "content": "Input Condition\nVin: 90Vac~264Vac Frequency : 47Hz to 63 Hz\nLoad Condition:\n(a)Dynamic\u00a0 Load follower ASUS\u00a0 Spec \n(b)Static\u00a0 Load\u00a0\n-for 5V : 0.02A/step (No load to 2W), and 0.1A/step (2W to Full load)\n- for 9V/15V : 0.01A/step (No load to 2W), and 0.1A/step (2W to Full load)\n- for 20V : 0.005A/step (No load to 2W), and 0.1A/step (2W to Full load)\nNB ADAPTER SPEC :\nStatic Load\nWM Type : Microphone at a distance of 10cm from the surface and noise level is less than 20dB\nDesktop Type : Microphone at a distance of 5cm from the surface and noise level is less than 20Db\nDynamic Load\nWM Type : Microphone at a distance of 10cm from the surface and noise level is less than 25dB\nDesktop Type : Microphone at a distance of 5cm from the surface and noise level is less than 25dB",
+        "ancestors": [
+            "2. Environmental ",
+            "2.7 Acoustic test"
+        ],
+        "retrieval_ground_truth": [
+            "5.4 Acoustic test:"
+        ]
+    },
+    {
+        "type": "table",
+        "element_ind": 4,
+        "ori_df": "gASVcAIAAAAAAACMEXBhbmRhcy5jb3JlLmZyYW1llIwJRGF0YUZyYW1llJOUKYGUfZQojARfbWdylIwecGFuZGFzLmNvcmUuaW50ZXJuYWxzLm1hbmFnZXJzlIwMQmxvY2tNYW5hZ2VylJOUjBZwYW5kYXMuX2xpYnMuaW50ZXJuYWxzlIwPX3VucGlja2xlX2Jsb2NrlJOUjBVudW1weS5jb3JlLm11bHRpYXJyYXmUjAxfcmVjb25zdHJ1Y3SUk5SMBW51bXB5lIwHbmRhcnJheZSTlEsAhZRDAWKUh5RSlChLAUsESwCGlGgPjAVkdHlwZZSTlIwCTziUiYiHlFKUKEsDjAF8lE5OTkr/////Sv////9LP3SUYoldlHSUYowIYnVpbHRpbnOUjAVzbGljZZSTlEsASwRLAYeUUpRLAoeUUpSFlF2UKIwYcGFuZGFzLmNvcmUuaW5kZXhlcy5iYXNllIwKX25ld19JbmRleJSTlGgpjAVJbmRleJSTlH2UKIwEZGF0YZRoDmgRSwCFlGgTh5RSlChLAUsEhZRoG4ldlCiMDEFEUC02NVpXIEJOQZSMAJRoNmg2ZXSUYowEbmFtZZROdYaUUpRoK4wZcGFuZGFzLmNvcmUuaW5kZXhlcy5yYW5nZZSMClJhbmdlSW5kZXiUk5R9lChoOE6MBXN0YXJ0lEsAjARzdG9wlEsAjARzdGVwlEsBdYaUUpRlhpRSlIwEX3R5cJSMCWRhdGFmcmFtZZSMCV9tZXRhZGF0YZRdlIwFYXR0cnOUfZSMBl9mbGFnc5R9lIwXYWxsb3dzX2R1cGxpY2F0ZV9sYWJlbHOUiHN1Yi4=",
+        "table_columns_width": [
+            1309370,
+            1310005,
+            1309370,
+            1310005
+        ],
+        "html_table": "<table border=\"1\">\n  <tr>\n    <td>ADP-65ZW BNA</td>\n    <td></td>\n    <td></td>\n    <td></td>\n  </tr>\n</table>",
+        "ancestors": "",
+        "retrieval_ground_truth": []
+    },
+    {
+        "type": "table",
+        "element_ind": 23,
+        "ori_df": "gASVogIAAAAAAACMEXBhbmRhcy5jb3JlLmZyYW1llIwJRGF0YUZyYW1llJOUKYGUfZQojARfbWdylIwecGFuZGFzLmNvcmUuaW50ZXJuYWxzLm1hbmFnZXJzlIwMQmxvY2tNYW5hZ2VylJOUjBZwYW5kYXMuX2xpYnMuaW50ZXJuYWxzlIwPX3VucGlja2xlX2Jsb2NrlJOUjBVudW1weS5jb3JlLm11bHRpYXJyYXmUjAxfcmVjb25zdHJ1Y3SUk5SMBW51bXB5lIwHbmRhcnJheZSTlEsAhZRDAWKUh5RSlChLAUsCSwSGlGgPjAVkdHlwZZSTlIwCTziUiYiHlFKUKEsDjAF8lE5OTkr/////Sv////9LP3SUYoldlCiMATWUjAE5lIwCMTWUjAIyMJSMBTc5LjMllIwFODQuNSWUjAU4Ni41JZSMBTg3LjAllGV0lGKMCGJ1aWx0aW5zlIwFc2xpY2WUk5RLAEsCSwGHlFKUSwKHlFKUhZRdlCiMGHBhbmRhcy5jb3JlLmluZGV4ZXMuYmFzZZSMCl9uZXdfSW5kZXiUk5RoMYwFSW5kZXiUk5R9lCiMBGRhdGGUaA5oEUsAhZRoE4eUUpQoSwFLAoWUaBuJXZQojARWb3V0lIwKRWZmaWNpZW5jeZRldJRijARuYW1llE51hpRSlGgzjBlwYW5kYXMuY29yZS5pbmRleGVzLnJhbmdllIwKUmFuZ2VJbmRleJSTlH2UKGhATowFc3RhcnSUSwCMBHN0b3CUSwSMBHN0ZXCUSwF1hpRSlGWGlFKUjARfdHlwlIwJZGF0YWZyYW1llIwJX21ldGFkYXRhlF2UjAVhdHRyc5R9lIwGX2ZsYWdzlH2UjBdhbGxvd3NfZHVwbGljYXRlX2xhYmVsc5SIc3ViLg==",
+        "table_columns_width": [
+            1452245,
+            2077720
+        ],
+        "html_table": "<table border=\"1\">\n  <tr>\n    <td>Vout</td>\n    <td>Efficiency</td>\n  </tr>\n  <tr>\n    <td>5</td>\n    <td>79.3%</td>\n  </tr>\n  <tr>\n    <td>9</td>\n    <td>84.5%</td>\n  </tr>\n  <tr>\n    <td>15</td>\n    <td>86.5%</td>\n  </tr>\n  <tr>\n    <td>20</td>\n    <td>87.0%</td>\n  </tr>\n</table>",
+        "ancestors": [
+            "1. ELECTRICAL",
+            "1.1 Input Characteristics:",
+            "1.1.7 Efficiency (Warm Up)",
+            "1.1.7.1 Nominal input voltage, maximum load and measured at the end of DC cable. "
+        ],
+        "retrieval_ground_truth": []
+    },
+    {
+        "type": "table",
+        "element_ind": 26,
+        "ori_df": "gASVqAIAAAAAAACMEXBhbmRhcy5jb3JlLmZyYW1llIwJRGF0YUZyYW1llJOUKYGUfZQojARfbWdylIwecGFuZGFzLmNvcmUuaW50ZXJuYWxzLm1hbmFnZXJzlIwMQmxvY2tNYW5hZ2VylJOUjBZwYW5kYXMuX2xpYnMuaW50ZXJuYWxzlIwPX3VucGlja2xlX2Jsb2NrlJOUjBVudW1weS5jb3JlLm11bHRpYXJyYXmUjAxfcmVjb25zdHJ1Y3SUk5SMBW51bXB5lIwHbmRhcnJheZSTlEsAhZRDAWKUh5RSlChLAUsCSwSGlGgPjAVkdHlwZZSTlIwCTziUiYiHlFKUKEsDjAF8lE5OTkr/////Sv////9LP3SUYoldlCiMATWUjAE5lIwCMTWUjAIyMJSMBzgyLjM4NSWUjAY4Ny42MiWUjAc4OC44NTIllIwGODkuMDAllGV0lGKMCGJ1aWx0aW5zlIwFc2xpY2WUk5RLAEsCSwGHlFKUSwKHlFKUhZRdlCiMGHBhbmRhcy5jb3JlLmluZGV4ZXMuYmFzZZSMCl9uZXdfSW5kZXiUk5RoMYwFSW5kZXiUk5R9lCiMBGRhdGGUaA5oEUsAhZRoE4eUUpQoSwFLAoWUaBuJXZQojARWb3V0lIwKRWZmaWNpZW5jeZRldJRijARuYW1llE51hpRSlGgzjBlwYW5kYXMuY29yZS5pbmRleGVzLnJhbmdllIwKUmFuZ2VJbmRleJSTlH2UKGhATowFc3RhcnSUSwCMBHN0b3CUSwSMBHN0ZXCUSwF1hpRSlGWGlFKUjARfdHlwlIwJZGF0YWZyYW1llIwJX21ldGFkYXRhlF2UjAVhdHRyc5R9lIwGX2ZsYWdzlH2UjBdhbGxvd3NfZHVwbGljYXRlX2xhYmVsc5SIc3ViLg==",
+        "table_columns_width": [
+            1452245,
+            2077720
+        ],
+        "html_table": "<table border=\"1\">\n  <tr>\n    <td>Vout</td>\n    <td>Efficiency</td>\n  </tr>\n  <tr>\n    <td>5</td>\n    <td>82.385%</td>\n  </tr>\n  <tr>\n    <td>9</td>\n    <td>87.62%</td>\n  </tr>\n  <tr>\n    <td>15</td>\n    <td>88.852%</td>\n  </tr>\n  <tr>\n    <td>20</td>\n    <td>89.00%</td>\n  </tr>\n</table>",
+        "ancestors": [
+            "1. ELECTRICAL",
+            "1.1 Input Characteristics:",
+            "1.1.7 Efficiency (Warm Up)",
+            "1.1.7.2 Active mode efficiency:"
+        ],
+        "retrieval_ground_truth": []
+    },
+    {
+        "type": "table",
+        "element_ind": 32,
+        "ori_df": "gASVQwMAAAAAAACMEXBhbmRhcy5jb3JlLmZyYW1llIwJRGF0YUZyYW1llJOUKYGUfZQojARfbWdylIwecGFuZGFzLmNvcmUuaW50ZXJuYWxzLm1hbmFnZXJzlIwMQmxvY2tNYW5hZ2VylJOUjBZwYW5kYXMuX2xpYnMuaW50ZXJuYWxzlIwPX3VucGlja2xlX2Jsb2NrlJOUjBVudW1weS5jb3JlLm11bHRpYXJyYXmUjAxfcmVjb25zdHJ1Y3SUk5SMBW51bXB5lIwHbmRhcnJheZSTlEsAhZRDAWKUh5RSlChLAUsDSwmGlGgPjAVkdHlwZZSTlIwCTziUiYiHlFKUKEsDjAF8lE5OTkr/////Sv////9LP3SUYoldlCiMAzIwVpSMAzIwVpSMAzIwVpSMAzIwVpSMAzIwVpSMAzIwVpSMAzIwVpSMAzIwVpSMAjVWlIwEMTguMJSMBDExLjCUjAU1fjYuNZSMATOUjAQxLjY1lIwDMS41lIwBMZSMBDAuMjWUjAQwLjE1lIwDPDIxlIwDPDE0lIwIRWZmLj44MCWUjAI8NZSMAjwzlIwEPDIuMpSMBDwxLjaUjAU8MC40N5SMBTwwLjI4lGV0lGKMCGJ1aWx0aW5zlIwFc2xpY2WUk5RLAEsDSwGHlFKUSwKHlFKUhZRdlCiMGHBhbmRhcy5jb3JlLmluZGV4ZXMuYmFzZZSMCl9uZXdfSW5kZXiUk5RoRIwFSW5kZXiUk5R9lCiMBGRhdGGUaA5oEUsAhZRoE4eUUpQoSwFLA4WUaBuJXZQojBJPdXRwdXQgVm9sdGFnZSAoVimUjAtEQyBQT1dFUihXKZSMFEFDIFNwZWMuIFBvd2VyICggVyAplGV0lGKMBG5hbWWUTnWGlFKUaEaMGXBhbmRhcy5jb3JlLmluZGV4ZXMucmFuZ2WUjApSYW5nZUluZGV4lJOUfZQoaFROjAVzdGFydJRLAIwEc3RvcJRLCYwEc3RlcJRLAXWGlFKUZYaUUpSMBF90eXCUjAlkYXRhZnJhbWWUjAlfbWV0YWRhdGGUXZSMBWF0dHJzlH2UjAZfZmxhZ3OUfZSMF2FsbG93c19kdXBsaWNhdGVfbGFiZWxzlIhzdWIu",
+        "table_columns_width": [
+            1062355,
+            915035,
+            1308100
+        ],
+        "html_table": "<table border=\"1\">\n  <tr>\n    <td>Output Voltage (V)</td>\n    <td>DC POWER(W)</td>\n    <td>AC Spec. Power ( W )</td>\n  </tr>\n  <tr>\n    <td>20V</td>\n    <td>18.0</td>\n    <td><21</td>\n  </tr>\n  <tr>\n    <td>20V</td>\n    <td>11.0</td>\n    <td><14</td>\n  </tr>\n  <tr>\n    <td>20V</td>\n    <td>5~6.5</td>\n    <td>Eff.>80%</td>\n  </tr>\n  <tr>\n    <td>20V</td>\n    <td>3</td>\n    <td><5</td>\n  </tr>\n  <tr>\n    <td>20V</td>\n    <td>1.65</td>\n    <td><3</td>\n  </tr>\n  <tr>\n    <td>20V</td>\n    <td>1.5</td>\n    <td><2.2</td>\n  </tr>\n  <tr>\n    <td>20V</td>\n    <td>1</td>\n    <td><1.6</td>\n  </tr>\n  <tr>\n    <td>20V</td>\n    <td>0.25</td>\n    <td><0.47</td>\n  </tr>\n  <tr>\n    <td>5V</td>\n    <td>0.15</td>\n    <td><0.28</td>\n  </tr>\n</table>",
+        "ancestors": [
+            "1. ELECTRICAL",
+            "1.1 Input Characteristics:",
+            "1.1.9 Power saving requirement"
+        ],
+        "retrieval_ground_truth": [
+            "2.2.8 Power saving requirement"
+        ]
+    },
+    {
+        "type": "table",
+        "element_ind": 38,
+        "ori_df": "gASVtwIAAAAAAACMEXBhbmRhcy5jb3JlLmZyYW1llIwJRGF0YUZyYW1llJOUKYGUfZQojARfbWdylIwecGFuZGFzLmNvcmUuaW50ZXJuYWxzLm1hbmFnZXJzlIwMQmxvY2tNYW5hZ2VylJOUjBZwYW5kYXMuX2xpYnMuaW50ZXJuYWxzlIwPX3VucGlja2xlX2Jsb2NrlJOUjBVudW1weS5jb3JlLm11bHRpYXJyYXmUjAxfcmVjb25zdHJ1Y3SUk5SMBW51bXB5lIwHbmRhcnJheZSTlEsAhZRDAWKUh5RSlChLAUsCSwSGlGgPjAVkdHlwZZSTlIwCTziUiYiHlFKUKEsDjAF8lE5OTkr/////Sv////9LP3SUYoldlCiMATWUjAE5lIwCMTWUjAIyMJSMCTQuODV+NS41VpSMCjguNTV+OS40NVaUjAwxNC4yNX4xNS43NVaUjAYxOX4yMVaUZXSUYowIYnVpbHRpbnOUjAVzbGljZZSTlEsASwJLAYeUUpRLAoeUUpSFlF2UKIwYcGFuZGFzLmNvcmUuaW5kZXhlcy5iYXNllIwKX25ld19JbmRleJSTlGgxjAVJbmRleJSTlH2UKIwEZGF0YZRoDmgRSwCFlGgTh5RSlChLAUsChZRoG4ldlCiMBQlWb3V0lIwNVm9sdGFnZSBSYW5nZZRldJRijARuYW1llE51hpRSlGgzjBlwYW5kYXMuY29yZS5pbmRleGVzLnJhbmdllIwKUmFuZ2VJbmRleJSTlH2UKGhATowFc3RhcnSUSwCMBHN0b3CUSwSMBHN0ZXCUSwF1hpRSlGWGlFKUjARfdHlwlIwJZGF0YWZyYW1llIwJX21ldGFkYXRhlF2UjAVhdHRyc5R9lIwGX2ZsYWdzlH2UjBdhbGxvd3NfZHVwbGljYXRlX2xhYmVsc5SIc3ViLg==",
+        "table_columns_width": [
+            913765,
+            1308100
+        ],
+        "html_table": "<table border=\"1\">\n  <tr>\n    <td>Vout</td>\n    <td>Voltage Range</td>\n  </tr>\n  <tr>\n    <td>5</td>\n    <td>4.85~5.5V</td>\n  </tr>\n  <tr>\n    <td>9</td>\n    <td>8.55~9.45V</td>\n  </tr>\n  <tr>\n    <td>15</td>\n    <td>14.25~15.75V</td>\n  </tr>\n  <tr>\n    <td>20</td>\n    <td>19~21V</td>\n  </tr>\n</table>",
+        "ancestors": [
+            "1. ELECTRICAL",
+            "1.2 Output Characteristics:",
+            "1.2.2 Voltage Range"
+        ],
+        "retrieval_ground_truth": [
+            "2.2.1 Electrical"
+        ]
+    },
+    {
+        "type": "table",
+        "element_ind": 41,
+        "ori_df": "gASVmwIAAAAAAACMEXBhbmRhcy5jb3JlLmZyYW1llIwJRGF0YUZyYW1llJOUKYGUfZQojARfbWdylIwecGFuZGFzLmNvcmUuaW50ZXJuYWxzLm1hbmFnZXJzlIwMQmxvY2tNYW5hZ2VylJOUjBZwYW5kYXMuX2xpYnMuaW50ZXJuYWxzlIwPX3VucGlja2xlX2Jsb2NrlJOUjBVudW1weS5jb3JlLm11bHRpYXJyYXmUjAxfcmVjb25zdHJ1Y3SUk5SMBW51bXB5lIwHbmRhcnJheZSTlEsAhZRDAWKUh5RSlChLAUsCSwSGlGgPjAVkdHlwZZSTlIwCTziUiYiHlFKUKEsDjAF8lE5OTkr/////Sv////9LP3SUYoldlCiMATWUjAE5lIwCMTWUjAIyMJSMBDB+M0GUjAQwfjNBlIwEMH4zQZSMBzB+My4yNUGUZXSUYowIYnVpbHRpbnOUjAVzbGljZZSTlEsASwJLAYeUUpRLAoeUUpSFlF2UKIwYcGFuZGFzLmNvcmUuaW5kZXhlcy5iYXNllIwKX25ld19JbmRleJSTlGgxjAVJbmRleJSTlH2UKIwEZGF0YZRoDmgRSwCFlGgTh5RSlChLAUsChZRoG4ldlCiMBFZvdXSUjARMb2FklGV0lGKMBG5hbWWUTnWGlFKUaDOMGXBhbmRhcy5jb3JlLmluZGV4ZXMucmFuZ2WUjApSYW5nZUluZGV4lJOUfZQoaEBOjAVzdGFydJRLAIwEc3RvcJRLBIwEc3RlcJRLAXWGlFKUZYaUUpSMBF90eXCUjAlkYXRhZnJhbWWUjAlfbWV0YWRhdGGUXZSMBWF0dHJzlH2UjAZfZmxhZ3OUfZSMF2FsbG93c19kdXBsaWNhdGVfbGFiZWxzlIhzdWIu",
+        "table_columns_width": [
+            913765,
+            1308100
+        ],
+        "html_table": "<table border=\"1\">\n  <tr>\n    <td>Vout</td>\n    <td>Load</td>\n  </tr>\n  <tr>\n    <td>5</td>\n    <td>0~3A</td>\n  </tr>\n  <tr>\n    <td>9</td>\n    <td>0~3A</td>\n  </tr>\n  <tr>\n    <td>15</td>\n    <td>0~3A</td>\n  </tr>\n  <tr>\n    <td>20</td>\n    <td>0~3.25A</td>\n  </tr>\n</table>",
+        "ancestors": [
+            "1. ELECTRICAL",
+            "1.2 Output Characteristics:",
+            "1.2.3 Current"
+        ],
+        "retrieval_ground_truth": [
+            "2.2.1 Electrical"
+        ]
+    },
+    {
+        "type": "table",
+        "element_ind": 49,
+        "ori_df": "gASVqAIAAAAAAACMEXBhbmRhcy5jb3JlLmZyYW1llIwJRGF0YUZyYW1llJOUKYGUfZQojARfbWdylIwecGFuZGFzLmNvcmUuaW50ZXJuYWxzLm1hbmFnZXJzlIwMQmxvY2tNYW5hZ2VylJOUjBZwYW5kYXMuX2xpYnMuaW50ZXJuYWxzlIwPX3VucGlja2xlX2Jsb2NrlJOUjBVudW1weS5jb3JlLm11bHRpYXJyYXmUjAxfcmVjb25zdHJ1Y3SUk5SMBW51bXB5lIwHbmRhcnJheZSTlEsAhZRDAWKUh5RSlChLAUsCSwSGlGgPjAVkdHlwZZSTlIwCTziUiYiHlFKUKEsDjAF8lE5OTkr/////Sv////9LP3SUYoldlCiMATWUjAE5lIwCMTWUjAIyMJSMBTE4MG1WlIwFMjAwbVaUjAUzMDBtVpSMBTMwMG1WlGV0lGKMCGJ1aWx0aW5zlIwFc2xpY2WUk5RLAEsCSwGHlFKUSwKHlFKUhZRdlCiMGHBhbmRhcy5jb3JlLmluZGV4ZXMuYmFzZZSMCl9uZXdfSW5kZXiUk5RoMYwFSW5kZXiUk5R9lCiMBGRhdGGUaA5oEUsAhZRoE4eUUpQoSwFLAoWUaBuJXZQojARWb3V0lIwQUmlwcGxlIGFuZCBOb2lzZZRldJRijARuYW1llE51hpRSlGgzjBlwYW5kYXMuY29yZS5pbmRleGVzLnJhbmdllIwKUmFuZ2VJbmRleJSTlH2UKGhATowFc3RhcnSUSwCMBHN0b3CUSwSMBHN0ZXCUSwF1hpRSlGWGlFKUjARfdHlwlIwJZGF0YWZyYW1llIwJX21ldGFkYXRhlF2UjAVhdHRyc5R9lIwGX2ZsYWdzlH2UjBdhbGxvd3NfZHVwbGljYXRlX2xhYmVsc5SIc3ViLg==",
+        "table_columns_width": [
+            914400,
+            1435735
+        ],
+        "html_table": "<table border=\"1\">\n  <tr>\n    <td>Vout</td>\n    <td>Ripple and Noise</td>\n  </tr>\n  <tr>\n    <td>5</td>\n    <td>180mV</td>\n  </tr>\n  <tr>\n    <td>9</td>\n    <td>200mV</td>\n  </tr>\n  <tr>\n    <td>15</td>\n    <td>300mV</td>\n  </tr>\n  <tr>\n    <td>20</td>\n    <td>300mV</td>\n  </tr>\n</table>",
+        "ancestors": [
+            "1. ELECTRICAL",
+            "1.2 Output Characteristics:",
+            "1.2.4 Output Ripple and Noise"
+        ],
+        "retrieval_ground_truth": [
+            "2.2.1 Electrical"
+        ]
+    },
+    {
+        "type": "table",
+        "element_ind": 85,
+        "ori_df": "gASVmQIAAAAAAACMEXBhbmRhcy5jb3JlLmZyYW1llIwJRGF0YUZyYW1llJOUKYGUfZQojARfbWdylIwecGFuZGFzLmNvcmUuaW50ZXJuYWxzLm1hbmFnZXJzlIwMQmxvY2tNYW5hZ2VylJOUjBZwYW5kYXMuX2xpYnMuaW50ZXJuYWxzlIwPX3VucGlja2xlX2Jsb2NrlJOUjBVudW1weS5jb3JlLm11bHRpYXJyYXmUjAxfcmVjb25zdHJ1Y3SUk5SMBW51bXB5lIwHbmRhcnJheZSTlEsAhZRDAWKUh5RSlChLAUsCSwSGlGgPjAVkdHlwZZSTlIwCTziUiYiHlFKUKEsDjAF8lE5OTkr/////Sv////9LP3SUYoldlCiMATWUjAE5lIwCMTWUjAIyMJSMBDcuNVaUjAUxMy41VpSMBjIwLjI1VpSMAzI3VpRldJRijAhidWlsdGluc5SMBXNsaWNllJOUSwBLAksBh5RSlEsCh5RSlIWUXZQojBhwYW5kYXMuY29yZS5pbmRleGVzLmJhc2WUjApfbmV3X0luZGV4lJOUaDGMBUluZGV4lJOUfZQojARkYXRhlGgOaBFLAIWUaBOHlFKUKEsBSwKFlGgbiV2UKIwEVm91dJSMA09WUJRldJRijARuYW1llE51hpRSlGgzjBlwYW5kYXMuY29yZS5pbmRleGVzLnJhbmdllIwKUmFuZ2VJbmRleJSTlH2UKGhATowFc3RhcnSUSwCMBHN0b3CUSwSMBHN0ZXCUSwF1hpRSlGWGlFKUjARfdHlwlIwJZGF0YWZyYW1llIwJX21ldGFkYXRhlF2UjAVhdHRyc5R9lIwGX2ZsYWdzlH2UjBdhbGxvd3NfZHVwbGljYXRlX2xhYmVsc5SIc3ViLg==",
+        "table_columns_width": [
+            914400,
+            1435735
+        ],
+        "html_table": "<table border=\"1\">\n  <tr>\n    <td>Vout</td>\n    <td>OVP</td>\n  </tr>\n  <tr>\n    <td>5</td>\n    <td>7.5V</td>\n  </tr>\n  <tr>\n    <td>9</td>\n    <td>13.5V</td>\n  </tr>\n  <tr>\n    <td>15</td>\n    <td>20.25V</td>\n  </tr>\n  <tr>\n    <td>20</td>\n    <td>27V</td>\n  </tr>\n</table>",
+        "ancestors": [
+            "1. ELECTRICAL",
+            "1.2 Output Characteristics:",
+            "1.2.14 Protection ",
+            "1.2.14.1 Over Voltage Protection"
+        ],
+        "retrieval_ground_truth": [
+            "2.3.2 Over Voltage Protection (OVP)"
+        ]
+    },
+    {
+        "type": "table",
+        "element_ind": 88,
+        "ori_df": "gASVrQIAAAAAAACMEXBhbmRhcy5jb3JlLmZyYW1llIwJRGF0YUZyYW1llJOUKYGUfZQojARfbWdylIwecGFuZGFzLmNvcmUuaW50ZXJuYWxzLm1hbmFnZXJzlIwMQmxvY2tNYW5hZ2VylJOUjBZwYW5kYXMuX2xpYnMuaW50ZXJuYWxzlIwPX3VucGlja2xlX2Jsb2NrlJOUjBVudW1weS5jb3JlLm11bHRpYXJyYXmUjAxfcmVjb25zdHJ1Y3SUk5SMBW51bXB5lIwHbmRhcnJheZSTlEsAhZRDAWKUh5RSlChLAUsCSwSGlGgPjAVkdHlwZZSTlIwCTziUiYiHlFKUKEsDjAF8lE5OTkr/////Sv////9LP3SUYoldlCiMATWUjAE5lIwCMTWUjAIyMJSMCDMuM34zLjZBlIwIMy4zfjMuNkGUjAszLjlBfjVBIG1heJSMCzMuOUF+NUEgbWF4lGV0lGKMCGJ1aWx0aW5zlIwFc2xpY2WUk5RLAEsCSwGHlFKUSwKHlFKUhZRdlCiMGHBhbmRhcy5jb3JlLmluZGV4ZXMuYmFzZZSMCl9uZXdfSW5kZXiUk5RoMYwFSW5kZXiUk5R9lCiMBGRhdGGUaA5oEUsAhZRoE4eUUpQoSwFLAoWUaBuJXZQojARWb3V0lIwDT0NQlGV0lGKMBG5hbWWUTnWGlFKUaDOMGXBhbmRhcy5jb3JlLmluZGV4ZXMucmFuZ2WUjApSYW5nZUluZGV4lJOUfZQoaEBOjAVzdGFydJRLAIwEc3RvcJRLBIwEc3RlcJRLAXWGlFKUZYaUUpSMBF90eXCUjAlkYXRhZnJhbWWUjAlfbWV0YWRhdGGUXZSMBWF0dHJzlH2UjAZfZmxhZ3OUfZSMF2FsbG93c19kdXBsaWNhdGVfbGFiZWxzlIhzdWIu",
+        "table_columns_width": [
+            914400,
+            1435735
+        ],
+        "html_table": "<table border=\"1\">\n  <tr>\n    <td>Vout</td>\n    <td>OCP</td>\n  </tr>\n  <tr>\n    <td>5</td>\n    <td>3.3~3.6A</td>\n  </tr>\n  <tr>\n    <td>9</td>\n    <td>3.3~3.6A</td>\n  </tr>\n  <tr>\n    <td>15</td>\n    <td>3.9A~5A max</td>\n  </tr>\n  <tr>\n    <td>20</td>\n    <td>3.9A~5A max</td>\n  </tr>\n</table>",
+        "ancestors": [
+            "1. ELECTRICAL",
+            "1.2 Output Characteristics:",
+            "1.2.14 Protection ",
+            "1.2.14.2 Over Current Protection"
+        ],
+        "retrieval_ground_truth": [
+            "2.3.1 Over Current Protection (OCP)"
+        ]
+    },
+    {
+        "type": "table",
+        "element_ind": 94,
+        "ori_df": "gASVswIAAAAAAACMEXBhbmRhcy5jb3JlLmZyYW1llIwJRGF0YUZyYW1llJOUKYGUfZQojARfbWdylIwecGFuZGFzLmNvcmUuaW50ZXJuYWxzLm1hbmFnZXJzlIwMQmxvY2tNYW5hZ2VylJOUjBZwYW5kYXMuX2xpYnMuaW50ZXJuYWxzlIwPX3VucGlja2xlX2Jsb2NrlJOUjBVudW1weS5jb3JlLm11bHRpYXJyYXmUjAxfcmVjb25zdHJ1Y3SUk5SMBW51bXB5lIwHbmRhcnJheZSTlEsAhZRDAWKUh5RSlChLAUsDSwOGlGgPjAVkdHlwZZSTlIwCTziUiYiHlFKUKEsDjAF8lE5OTkr/////Sv////9LP3SUYoldlCiMA1BQU5SMA0FWU5SMA0FWU5SMBjVWfjIxVpSMCDlWfjE0LjlWlIwHMTVWfjIwVpSMAjNBlIwCM0GUjAUzLjI1QZRldJRijAhidWlsdGluc5SMBXNsaWNllJOUSwBLA0sBh5RSlEsCh5RSlIWUXZQojBhwYW5kYXMuY29yZS5pbmRleGVzLmJhc2WUjApfbmV3X0luZGV4lJOUaDKMBUluZGV4lJOUfZQojARkYXRhlGgOaBFLAIWUaBOHlFKUKEsBSwOFlGgbiV2UKIwESXRlbZSMBFZvdXSUjARMb2FklGV0lGKMBG5hbWWUTnWGlFKUaDSMGXBhbmRhcy5jb3JlLmluZGV4ZXMucmFuZ2WUjApSYW5nZUluZGV4lJOUfZQoaEJOjAVzdGFydJRLAIwEc3RvcJRLA4wEc3RlcJRLAXWGlFKUZYaUUpSMBF90eXCUjAlkYXRhZnJhbWWUjAlfbWV0YWRhdGGUXZSMBWF0dHJzlH2UjAZfZmxhZ3OUfZSMF2FsbG93c19kdXBsaWNhdGVfbGFiZWxzlIhzdWIu",
+        "table_columns_width": [
+            1316990,
+            1316990,
+            1316990
+        ],
+        "html_table": "<table border=\"1\">\n  <tr>\n    <td>Item</td>\n    <td>Vout</td>\n    <td>Load</td>\n  </tr>\n  <tr>\n    <td>PPS</td>\n    <td>5V~21V</td>\n    <td>3A</td>\n  </tr>\n  <tr>\n    <td>AVS</td>\n    <td>9V~14.9V</td>\n    <td>3A</td>\n  </tr>\n  <tr>\n    <td>AVS</td>\n    <td>15V~20V</td>\n    <td>3.25A</td>\n  </tr>\n</table>",
+        "ancestors": [
+            "1. ELECTRICAL",
+            "1.2 Output Characteristics:",
+            "1.2.14 Protection ",
+            "1.2.14.5 PPS and AVS function"
+        ],
+        "retrieval_ground_truth": []
+    },
+    {
+        "type": "table",
+        "element_ind": 174,
+        "ori_df": "gASVhAIAAAAAAACMEXBhbmRhcy5jb3JlLmZyYW1llIwJRGF0YUZyYW1llJOUKYGUfZQojARfbWdylIwecGFuZGFzLmNvcmUuaW50ZXJuYWxzLm1hbmFnZXJzlIwMQmxvY2tNYW5hZ2VylJOUjBZwYW5kYXMuX2xpYnMuaW50ZXJuYWxzlIwPX3VucGlja2xlX2Jsb2NrlJOUjBVudW1weS5jb3JlLm11bHRpYXJyYXmUjAxfcmVjb25zdHJ1Y3SUk5SMBW51bXB5lIwHbmRhcnJheZSTlEsAhZRDAWKUh5RSlChLAUsCSwGGlGgPjAVkdHlwZZSTlIwCTziUiYiHlFKUKEsDjAF8lE5OTkr/////Sv////9LP3SUYoldlCiMDEFEUC02NVpXIEJOQZSMAlVTlGV0lGKMCGJ1aWx0aW5zlIwFc2xpY2WUk5RLAEsCSwGHlFKUSwKHlFKUhZRdlCiMGHBhbmRhcy5jb3JlLmluZGV4ZXMuYmFzZZSMCl9uZXdfSW5kZXiUk5RoK4wFSW5kZXiUk5R9lCiMBGRhdGGUaA5oEUsAhZRoE4eUUpQoSwFLAoWUaBuJXZQojApNT0RFTCBMSVNUlIwEVHlwZZRldJRijARuYW1llE51hpRSlGgtjBlwYW5kYXMuY29yZS5pbmRleGVzLnJhbmdllIwKUmFuZ2VJbmRleJSTlH2UKGg6TowFc3RhcnSUSwCMBHN0b3CUSwGMBHN0ZXCUSwF1hpRSlGWGlFKUjARfdHlwlIwJZGF0YWZyYW1llIwJX21ldGFkYXRhlF2UjAVhdHRyc5R9lIwGX2ZsYWdzlH2UjBdhbGxvd3NfZHVwbGljYXRlX2xhYmVsc5SIc3ViLg==",
+        "table_columns_width": [
+            2268220,
+            539750
+        ],
+        "html_table": "<table border=\"1\">\n  <tr>\n    <td>MODEL LIST</td>\n    <td>Type</td>\n  </tr>\n  <tr>\n    <td>ADP-65ZW BNA</td>\n    <td>US</td>\n  </tr>\n</table>",
+        "ancestors": [
+            "3. Mechanical",
+            "3.2 Plug Type"
+        ],
+        "retrieval_ground_truth": []
+    },
+    {
+        "type": "table",
+        "element_ind": 183,
+        "ori_df": "gASVlQIAAAAAAACMEXBhbmRhcy5jb3JlLmZyYW1llIwJRGF0YUZyYW1llJOUKYGUfZQojARfbWdylIwecGFuZGFzLmNvcmUuaW50ZXJuYWxzLm1hbmFnZXJzlIwMQmxvY2tNYW5hZ2VylJOUjBZwYW5kYXMuX2xpYnMuaW50ZXJuYWxzlIwPX3VucGlja2xlX2Jsb2NrlJOUjBVudW1weS5jb3JlLm11bHRpYXJyYXmUjAxfcmVjb25zdHJ1Y3SUk5SMBW51bXB5lIwHbmRhcnJheZSTlEsAhZRDAWKUh5RSlChLAUsCSwKGlGgPjAVkdHlwZZSTlIwCTziUiYiHlFKUKEsDjAF8lE5OTkr/////Sv////9LP3SUYoldlCiMDEFEUC02NVpXIEJOQZSMAJSMDDIwNC4zZ8KxMi41JZRoIGV0lGKMCGJ1aWx0aW5zlIwFc2xpY2WUk5RLAEsCSwGHlFKUSwKHlFKUhZRdlCiMGHBhbmRhcy5jb3JlLmluZGV4ZXMuYmFzZZSMCl9uZXdfSW5kZXiUk5RoLIwFSW5kZXiUk5R9lCiMBGRhdGGUaA5oEUsAhZRoE4eUUpQoSwFLAoWUaBuJXZQojApNT0RFTCBMSVNUlIwGV2VpZ2h0lGV0lGKMBG5hbWWUTnWGlFKUaC6MGXBhbmRhcy5jb3JlLmluZGV4ZXMucmFuZ2WUjApSYW5nZUluZGV4lJOUfZQoaDtOjAVzdGFydJRLAIwEc3RvcJRLAowEc3RlcJRLAXWGlFKUZYaUUpSMBF90eXCUjAlkYXRhZnJhbWWUjAlfbWV0YWRhdGGUXZSMBWF0dHJzlH2UjAZfZmxhZ3OUfZSMF2FsbG93c19kdXBsaWNhdGVfbGFiZWxzlIhzdWIu",
+        "table_columns_width": [
+            2267585,
+            1259840
+        ],
+        "html_table": "<table border=\"1\">\n  <tr>\n    <td>MODEL LIST</td>\n    <td>Weight</td>\n  </tr>\n  <tr>\n    <td>ADP-65ZW BNA</td>\n    <td>204.3g\u00b12.5%</td>\n  </tr>\n  <tr>\n    <td></td>\n    <td></td>\n  </tr>\n</table>",
+        "ancestors": [
+            "3. Mechanical",
+            "3.7 Adapter Weight: "
+        ],
+        "retrieval_ground_truth": []
+    },
+    {
+        "type": "table",
+        "element_ind": 192,
+        "ori_df": "gASV4wsAAAAAAACMEXBhbmRhcy5jb3JlLmZyYW1llIwJRGF0YUZyYW1llJOUKYGUfZQojARfbWdylIwecGFuZGFzLmNvcmUuaW50ZXJuYWxzLm1hbmFnZXJzlIwMQmxvY2tNYW5hZ2VylJOUjBZwYW5kYXMuX2xpYnMuaW50ZXJuYWxzlIwPX3VucGlja2xlX2Jsb2NrlJOUjBVudW1weS5jb3JlLm11bHRpYXJyYXmUjAxfcmVjb25zdHJ1Y3SUk5SMBW51bXB5lIwHbmRhcnJheZSTlEsAhZRDAWKUh5RSlChLAUsESwWGlGgPjAVkdHlwZZSTlIwCTziUiYiHlFKUKEsDjAF8lE5OTkr/////Sv////9LP3SUYoldlCiMAjEulIwCMi6UjAIzLpSMAjQulIwCNS6UjCFDb3JkIGZsZXhpYmlsaXR5IHRlc3QoRGVsdGEgc3BlYymUjCZDb3JkIGZsZXhpYmlsaXR5IHRlc3QgKEN1c3RvbWVyIFNwZWMuKZSMEUNvcmQgdGVuc2lsZSB0ZXN0lIwJVmlicmF0aW9ulIwFU2hvY2uUWI8BAABIYW5nIHRoZSBzcGVjaWZpZWQgd2VpZ2h0IGFuZCBzd2luZyBpdCB0byBvbmUgZGlyZWN0aW9uIGFuZCByZXR1cm4gdG8gdGhlIG9yaWdpbmFsIHBvc2l0aW9uIHRoZW4gc3dpbmcgdG8gdGhlIG9wcG9zaXRlIGRpcmVjdGlvbiBhbmQgcmV0dXJuIHRvIHRoZSBvcmlnaW5hbCBwb3NpdGlvbi4gVGhpcyBjb25zdGl0dXRlcyBvbmUgY3ljbGUuIFRoZSBEQyBwb3dlciBzdXBwbHkgc2hhbGwgYmUgc3ViamVjdGVkIHRvIHRoZSBzcGVjaWZpZWQgY3ljbGVzIGEgc3BlY2lmaWVkIHNwZWVkLgpXZWlnaHQ6ICAyMDBnIApTd2luZyBhbmdsZSAozrgpOiAwIH4gMTgwwrAKQ3ljbGVzOiAxMDAwLDMwMDAsMTAwMDBjeWNsZXMKU3BlZWQ6IDQwIGN5Y2xlcy9taW4uCkNvbXBsaWFuY2U6IGNhc2UgU1IsIFBsdWcgU1KUWNUBAABIYW5nIHRoZSBzcGVjaWZpZWQgd2VpZ2h0IGFuZCBzd2luZyBpdCB0byBvbmUgZGlyZWN0aW9uIGFuZCByZXR1cm4gdG8gdGhlIG9yaWdpbmFsIHBvc2l0aW9uIHRoZW4gc3dpbmcgdG8gdGhlIG9wcG9zaXRlIGRpcmVjdGlvbiBhbmQgcmV0dXJuIHRvIHRoZSBvcmlnaW5hbCBwb3NpdGlvbi4gVGhpcyBjb25zdGl0dXRlcyBvbmUgY3ljbGUuIFRoZSBEQyBwb3dlciBzdXBwbHkgc2hhbGwgYmUgc3ViamVjdGVkIHRvIHRoZSBzcGVjaWZpZWQgY3ljbGVzIGEgc3BlY2lmaWVkIHNwZWVkLgooSWYgdGhlIGNhYmxlIGlzIHdpdGhvdXQgY29yZSBkb27igJl0IG5lZWQgY29yZSBTUiB0ZXN0ICkKCjEuIFdlaWdodDogIDIwMGcKMi5Td2luZyBhbmdsZSAozrgpOiArLy0gOTDCsAozLkN5Y2xlczogMzAwMCwgMTAwMDAgY3ljbGVzCjQuU3BlZWQ6IDQwIGN5Y2xlcy9taW4uCjUuQ29tcGxpYW5jZTogCiAgcGx1ZyBTUiwgY2FzZSBTUi4KlIyzQSBzdGF0aWMgbG9hZCBzaGFsbCBiZSBhcHBsaWVkIGFuZCBzdXN0YWluZWQgZm9yIGEgcGVyaW9kLiBFeGNlc3NpdmUgbG9hZCBzaGFsbCBub3QgYmUgYXBwbGllZCBpbiB0aGlzIHRlc3QsIHVubGVzcyBzcGVjaWFsIHJlcXVlc3QuCgpMb2FkICh3KTogIDEwIGtnZgpEdXJhbmNlOiAgNjAgc2VjCgoKCgoKCgoKCgqUjMNOb24tb3BlcmF0aW5nLCBSYW5kb20gdmlicmF0aW9uOgoKNX4xMDAgSHogICAwLjAxNSBHMi9IegoxMDB+MTM3IEh6ICAgICAgNiBkQi9vY3QKMTM3fjM1MCBIeiAgMC4wMDggRzIvSHoKMzUwfjUwMCBIeiAgICAgLTYgZEIvb2N0CgpBY2NlbGVyYXRpb246ICAyLjA5IEdybXMKRHVyYXRpb246ICAyMCBtaW4uIApEaXJlY3Rpb246ICBYLFksWiCUjJdOb24tb3BlcmF0aW5nCjEuIFB1bHNlOiAgSGFsZiBzaW5lIHdhdmUuICAKMi4gUGVhayBhY2NlbGVyYXRpb246IDUwIEcKMy4gRHVyYXRpb246IDExIG1zCjQuIE51bWJlciBvZiBzaG9jazogMSBzaG9jayBwZXIgZWFjaCBkaXJlY3Rpb24sIDYgZGlyZWN0aW9ucy4KlIzZRGlzY29ubmVjdGlvbiByYXRlIG9mIHRoZSB3aXJlIHNoYWxsIGJlIAoxMDAwIGN5Y2xlcyDigJNsZXNzIDEwJSAKZm9yIFBsdWcgU1IKMzAwMCBjeWNsZXMg4oCTIGxlc3MgMjAlICAKZm9yIGNhc2UgU1IKMzAwMCBjeWNsZXMg4oCTIGxlc3MgMzAlICAKMTAwMDAgY3ljbGVzIOKAkyBsZXNzIDEwMCUgd2l0aG91dCBkYW1hZ2UgdG8gdGhlIGluc3VsYXRpb25zLCBldGMuLiAKCgoKCpSMkURpc2Nvbm5lY3Rpb24gcmF0ZSBvZiB0aGUgd2lyZSBzaGFsbCBiZSAzMCUgb3IgbGVzcyBmb3IgIHBsdWcgU1IsIGNvcmUgU1IgYW5kIDEwJSBvciBsZXNzIGZvciBjYXNlIFNSLCB3aXRob3V0IGRhbWFnZSB0byB0aGUgaW5zdWxhdGlvbnMsIGV0Yy4uIAqUjDBDb250YWN0IHBhcnQgYW5kIGJ1c2hpbmcgc2hhbGwgbm90IGJlIGRldGFjaGVkLgqUjNIxLiBQU1UgbXVzdCBvcGVyYXRlIHdpdGggc3BlY2lmaWNhdGlvbiBhZnRlciBub24tb3BlcmF0aW9uIHRlc3QuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAyLiBQU1Ugc2hhbGwgYmUgbm8gbWVjaGFuaWNhbCBkYW1hZ2UgYWZ0ZXIgdGVzdC6UjNExLiBQU1UgbXVzdCBvcGVyYXRlIHdpdGggc3BlY2lmaWNhdGlvbiBhZnRlciBub24tb3BlcmF0aW9uIHRlc3QuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDIuIFBTVSBzaGFsbCBiZSBubyAgICBtZWNoYW5pY2FsIGRhbWFnZSBhZnRlciB0ZXN0LpRldJRijAhidWlsdGluc5SMBXNsaWNllJOUSwBLBEsBh5RSlEsCh5RSlIWUXZQojBhwYW5kYXMuY29yZS5pbmRleGVzLmJhc2WUjApfbmV3X0luZGV4lJOUaD2MBUluZGV4lJOUfZQojARkYXRhlGgOaBFLAIWUaBOHlFKUKEsBSwSFlGgbiV2UKIwAlIwESXRlbZSMCkNvbmRpdGlvbnOUjA1TcGVjaWZpY2F0aW9ulGV0lGKMBG5hbWWUTnWGlFKUaD+MGXBhbmRhcy5jb3JlLmluZGV4ZXMucmFuZ2WUjApSYW5nZUluZGV4lJOUfZQoaE5OjAVzdGFydJRLAIwEc3RvcJRLBYwEc3RlcJRLAXWGlFKUZYaUUpSMBF90eXCUjAlkYXRhZnJhbWWUjAlfbWV0YWRhdGGUXZSMBWF0dHJzlH2UjAZfZmxhZ3OUfZSMF2FsbG93c19kdXBsaWNhdGVfbGFiZWxzlIhzdWIu",
+        "table_columns_width": [
+            304165,
+            991235,
+            3809365,
+            1752600
+        ],
+        "html_table": "<table border=\"1\">\n  <tr>\n    <td></td>\n    <td>Item</td>\n    <td>Conditions</td>\n    <td>Specification</td>\n  </tr>\n  <tr>\n    <td>1.</td>\n    <td>Cord flexibility test(Delta spec)</td>\n    <td>Hang the specified weight and swing it to one direction and return to the original position then swing to the opposite direction and return to the original position. This constitutes one cycle. The DC power supply shall be subjected to the specified cycles a specified speed.\nWeight:  200g \nSwing angle (\u03b8): 0 ~ 180\u00b0\nCycles: 1000,3000,10000cycles\nSpeed: 40 cycles/min.\nCompliance: case SR, Plug SR</td>\n    <td>Disconnection rate of the wire shall be \n1000 cycles \u2013less 10% \nfor Plug SR\n3000 cycles \u2013 less 20%  \nfor case SR\n3000 cycles \u2013 less 30%  \n10000 cycles \u2013 less 100% without damage to the insulations, etc..</td>\n  </tr>\n  <tr>\n    <td>2.</td>\n    <td>Cord flexibility test (Customer Spec.)</td>\n    <td>Hang the specified weight and swing it to one direction and return to the original position then swing to the opposite direction and return to the original position. This constitutes one cycle. The DC power supply shall be subjected to the specified cycles a specified speed.\n(If the cable is without core don\u2019t need core SR test )\n\n1. Weight:  200g\n2.Swing angle (\u03b8): +/- 90\u00b0\n3.Cycles: 3000, 10000 cycles\n4.Speed: 40 cycles/min.\n5.Compliance: \n  plug SR, case SR.</td>\n    <td>Disconnection rate of the wire shall be 30% or less for  plug SR, core SR and 10% or less for case SR, without damage to the insulations, etc..</td>\n  </tr>\n  <tr>\n    <td>3.</td>\n    <td>Cord tensile test</td>\n    <td>A static load shall be applied and sustained for a period. Excessive load shall not be applied in this test, unless special request.\n\nLoad (w):  10 kgf\nDurance:  60 sec</td>\n    <td>Contact part and bushing shall not be detached.</td>\n  </tr>\n  <tr>\n    <td>4.</td>\n    <td>Vibration</td>\n    <td>Non-operating, Random vibration:\n\n5~100 Hz   0.015 G2/Hz\n100~137 Hz      6 dB/oct\n137~350 Hz  0.008 G2/Hz\n350~500 Hz     -6 dB/oct\n\nAcceleration:  2.09 Grms\nDuration:  20 min. \nDirection:  X,Y,Z</td>\n    <td>1. PSU must operate with specification after non-operation test.                                                \n                                                 2. PSU shall be no mechanical damage after test.</td>\n  </tr>\n  <tr>\n    <td>5.</td>\n    <td>Shock</td>\n    <td>Non-operating\n1. Pulse:  Half sine wave.  \n2. Peak acceleration: 50 G\n3. Duration: 11 ms\n4. Number of shock: 1 shock per each direction, 6 directions.</td>\n    <td>1. PSU must operate with specification after non-operation test.                                                \n                                             2. PSU shall be no    mechanical damage after test.</td>\n  </tr>\n</table>",
+        "ancestors": [
+            "3. Mechanical",
+            "3.7 Adapter Weight: "
+        ],
+        "retrieval_ground_truth": []
+    },
+    {
+        "type": "table",
+        "element_ind": 196,
+        "ori_df": "gASV+AcAAAAAAACMEXBhbmRhcy5jb3JlLmZyYW1llIwJRGF0YUZyYW1llJOUKYGUfZQojARfbWdylIwecGFuZGFzLmNvcmUuaW50ZXJuYWxzLm1hbmFnZXJzlIwMQmxvY2tNYW5hZ2VylJOUjBZwYW5kYXMuX2xpYnMuaW50ZXJuYWxzlIwPX3VucGlja2xlX2Jsb2NrlJOUjBVudW1weS5jb3JlLm11bHRpYXJyYXmUjAxfcmVjb25zdHJ1Y3SUk5SMBW51bXB5lIwHbmRhcnJheZSTlEsAhZRDAWKUh5RSlChLAUsESwSGlGgPjAVkdHlwZZSTlIwCTziUiYiHlFKUKEsDjAF8lE5OTkr/////Sv////9LP3SUYoldlCiMAjYulIwCNi6UjAI2LpSMAjYulIweRHJvcCB0ZXN0Cih3aXRoIG91dGxpbmUgbGFiZWwplIweRHJvcCB0ZXN0Cih3aXRoIG91dGxpbmUgbGFiZWwplIweRHJvcCB0ZXN0Cih3aXRoIG91dGxpbmUgbGFiZWwplIweRHJvcCB0ZXN0Cih3aXRoIG91dGxpbmUgbGFiZWwplIxgMS4gT3BlcmF0aW5nCmEuIFRoZSBkcm9wIGhlaWdodDogSD0gNzYgY20uCmIuIFRoZSBkcm9wIG9yaWVudGF0aW9uOiA2IGZhY2UgZm9yIGVhY2guCmMuIFBvd2VyIG9ulIxWMi4gTm9uLW9wZXJhdGluZwphLiBEcm9wIGhlaWdodDogSD0gMTEwIGNtLgpiLiBUaGUgZHJvcCBvcmllbnRhdGlvbjogNiBmYWNlIGZvciBlYWNoLgqUjJEzLiBMb3cgaGVpZ2h0IGRyb3AKRHJvcCBUSU1FUzogMTMwIHRpbWVzIGZvciBldmVyeSBzdXJmYWNlIChzaXggc2lkZSksIDc4MCB0aW1lcyBpbiB0b3RhbC4KVGVzdCBzdXJmYWNlIG1hdGVyaWFsIDogVGhlIGNvbmNyZXRlCkRyb3AgaGVpZ2h0OiAxMGNtlIwNNC4gRXF1aXBtZW50OpRYIwEAADEuIEFUUyBmdW5jdGlvbiBQYXNzLgoyLiBObyBQV0IgY29wcGVyIHBhZCBwZWVsaW5nIGFuZCBicm9rZW4uIAozLiBObyBzb2xkZXJpbmcgY3JhY2suICAgICAgICAgICAgICAgICAgICAg44CAICDjgIDjgIAgICAgICAgIDQuIE5vIGNvbXBvbmVudCBicm9rZW4uLgo1LiBIaS1wb3QgdGVzdCBwYXNzIHdpdGggc3BlY2lmaWMgY29uZGl0aW9uLiAgICAgICAgICAgICAgICAgICAgICAgIOOAgOOAgDYuIFRlc3QgRmluZ2VyIGNhbuKAmXQgdG91Y2ggdGhlIEhhemFyZG91cyBWb2x0YWdlIG9mIHRoZSBwcm9kdWN0LpRYIwEAADEuIEFUUyBmdW5jdGlvbiBQYXNzLgoyLiBObyBQV0IgY29wcGVyIHBhZCBwZWVsaW5nIGFuZCBicm9rZW4uIAozLiBObyBzb2xkZXJpbmcgY3JhY2suICAgICAgICAgICAgICAgICAgICAg44CAICDjgIDjgIAgICAgICAgIDQuIE5vIGNvbXBvbmVudCBicm9rZW4uLgo1LiBIaS1wb3QgdGVzdCBwYXNzIHdpdGggc3BlY2lmaWMgY29uZGl0aW9uLiAgICAgICAgICAgICAgICAgICAgICAgIOOAgOOAgDYuIFRlc3QgRmluZ2VyIGNhbuKAmXQgdG91Y2ggdGhlIEhhemFyZG91cyBWb2x0YWdlIG9mIHRoZSBwcm9kdWN0LpRYIwEAADEuIEFUUyBmdW5jdGlvbiBQYXNzLgoyLiBObyBQV0IgY29wcGVyIHBhZCBwZWVsaW5nIGFuZCBicm9rZW4uIAozLiBObyBzb2xkZXJpbmcgY3JhY2suICAgICAgICAgICAgICAgICAgICAg44CAICDjgIDjgIAgICAgICAgIDQuIE5vIGNvbXBvbmVudCBicm9rZW4uLgo1LiBIaS1wb3QgdGVzdCBwYXNzIHdpdGggc3BlY2lmaWMgY29uZGl0aW9uLiAgICAgICAgICAgICAgICAgICAgICAgIOOAgOOAgDYuIFRlc3QgRmluZ2VyIGNhbuKAmXQgdG91Y2ggdGhlIEhhemFyZG91cyBWb2x0YWdlIG9mIHRoZSBwcm9kdWN0LpSMAJRldJRijAhidWlsdGluc5SMBXNsaWNllJOUSwBLBEsBh5RSlEsCh5RSlIWUXZQojBhwYW5kYXMuY29yZS5pbmRleGVzLmJhc2WUjApfbmV3X0luZGV4lJOUaDmMBUluZGV4lJOUfZQojARkYXRhlGgOaBFLAIWUaBOHlFKUKEsBSwSFlGgbiV2UKGgujARJdGVtlIwKQ29uZGl0aW9uc5SMDVNwZWNpZmljYXRpb26UZXSUYowEbmFtZZROdYaUUpRoO4wZcGFuZGFzLmNvcmUuaW5kZXhlcy5yYW5nZZSMClJhbmdlSW5kZXiUk5R9lChoSU6MBXN0YXJ0lEsAjARzdG9wlEsEjARzdGVwlEsBdYaUUpRlhpRSlIwEX3R5cJSMCWRhdGFmcmFtZZSMCV9tZXRhZGF0YZRdlIwFYXR0cnOUfZSMBl9mbGFnc5R9lIwXYWxsb3dzX2R1cGxpY2F0ZV9sYWJlbHOUiHN1Yi4=",
+        "table_columns_width": [
+            381000,
+            990600,
+            3810000,
+            1675765
+        ],
+        "html_table": "<table border=\"1\">\n  <tr>\n    <td></td>\n    <td>Item</td>\n    <td>Conditions</td>\n    <td>Specification</td>\n  </tr>\n  <tr>\n    <td>6.</td>\n    <td>Drop test\n(with outline label)</td>\n    <td>1. Operating\na. The drop height: H= 76 cm.\nb. The drop orientation: 6 face for each.\nc. Power on</td>\n    <td>1. ATS function Pass.\n2. No PWB copper pad peeling and broken. \n3. No soldering crack.                     \u3000  \u3000\u3000        4. No component broken..\n5. Hi-pot test pass with specific condition.                        \u3000\u30006. Test Finger can\u2019t touch the Hazardous Voltage of the product.</td>\n  </tr>\n  <tr>\n    <td>6.</td>\n    <td>Drop test\n(with outline label)</td>\n    <td>2. Non-operating\na. Drop height: H= 110 cm.\nb. The drop orientation: 6 face for each.</td>\n    <td>1. ATS function Pass.\n2. No PWB copper pad peeling and broken. \n3. No soldering crack.                     \u3000  \u3000\u3000        4. No component broken..\n5. Hi-pot test pass with specific condition.                        \u3000\u30006. Test Finger can\u2019t touch the Hazardous Voltage of the product.</td>\n  </tr>\n  <tr>\n    <td>6.</td>\n    <td>Drop test\n(with outline label)</td>\n    <td>3. Low height drop\nDrop TIMES: 130 times for every surface (six side), 780 times in total.\nTest surface material : The concrete\nDrop height: 10cm</td>\n    <td>1. ATS function Pass.\n2. No PWB copper pad peeling and broken. \n3. No soldering crack.                     \u3000  \u3000\u3000        4. No component broken..\n5. Hi-pot test pass with specific condition.                        \u3000\u30006. Test Finger can\u2019t touch the Hazardous Voltage of the product.</td>\n  </tr>\n  <tr>\n    <td>6.</td>\n    <td>Drop test\n(with outline label)</td>\n    <td>4. Equipment:</td>\n    <td></td>\n  </tr>\n</table>",
+        "ancestors": [
+            "3. Mechanical",
+            "3.7 Adapter Weight: "
+        ],
+        "retrieval_ground_truth": []
+    },
+    {
+        "type": "table",
+        "element_ind": 206,
+        "ori_df": "gASVsgsAAAAAAACMEXBhbmRhcy5jb3JlLmZyYW1llIwJRGF0YUZyYW1llJOUKYGUfZQojARfbWdylIwecGFuZGFzLmNvcmUuaW50ZXJuYWxzLm1hbmFnZXJzlIwMQmxvY2tNYW5hZ2VylJOUjBZwYW5kYXMuX2xpYnMuaW50ZXJuYWxzlIwPX3VucGlja2xlX2Jsb2NrlJOUjBVudW1weS5jb3JlLm11bHRpYXJyYXmUjAxfcmVjb25zdHJ1Y3SUk5SMBW51bXB5lIwHbmRhcnJheZSTlEsAhZRDAWKUh5RSlChLAUsESwiGlGgPjAVkdHlwZZSTlIwCTziUiYiHlFKUKEsDjAF8lE5OTkr/////Sv////9LP3SUYoldlCiMAjculIwCOC6UjAE5lIwDMTAKlIwECjExCpSMAwoxMpSMBQoxMwoKlIwCMTSUjCBCYWxsIGltcGFjdAood2l0aCBvdXRsaW5lIGxhYmVsKZSME0FDIElubGV0IEJlbmRpbmcoSSmUjBRBQyBJbmxldCBCZW5kaW5nKElJKZSMClB1c2ggRm9yY2WUjAtMb2FkIFdlaWdodJSMClB1c2ggQmxhZGWUjAtTaWRlIFRocnVzdJSMDFBhY2tpbmcgVGVzdJRYsAEAADEuIFN0ZWVsIGJhbGw6IDAuNTQga2dmIC4gCjIuIERyb3AgaGVpZ2h0OiAzMCBjbS4KMy4gQSBob3Jpem9udGFsIHN1cmZhY2Ugb2YgbGFtaW5hdGVkIHdvb2Qgb2YgaGFyZHdvb2QgYXQgbGVhc3QgMTNtbQogdGhpY2ssIG1vdW50ZWQgb24gdHdvIGxheWVycyBvZiBwbHl3b29kIGVhY2ggMTltbSB0byAyMG1tIHRoaWNrLCAKYWxsIHN1cHBvcnRlZCBvbiBhIGNvbmNyZXRlIGZsb29yLgo0LiBJbXBhY3QgbG9jYXRpb246IENsYXNzaWZ5IGFjY29yZGluZyB0byBEVVTigJlzIGRpbWVuc2lvbi4gTHhXeEgKIAogICAgICAgICAgTCtXIDwxNTAgIEIsRCxGLEgsSSxLCiAgICAgIDE1MDxMK1cgPDIwMCAgQSxDLEQsRSxHLEgsSSxKLEssTAogICAgICAyMDA8TCtXICAgICAgIEEsQixDLEQsRSxGLEcsSCxJLEosSyxMCgoKCgoKCgoKCgoKCgoKNS4gRXF1aXBtZW50OpSMlwoKMS4gQmVuZGluZyBhbmdsZSAxNSDCsGZvciBlaXRoZXIgc2lkZS4KMi4gQmVuZGluZyBzcGVlZCAxMCB0aW1lcyBwZXIgbWludXRlLgozLiBNdXN0IHdpdGhzdGFuZCAzMCB0aW1lcyB0b3RhbGx5LgoKRXF1aXBtZW50OgpBcm0gY29udHJvbGxlcjogRGVsdGEuCgqUjJQKMS4gQmVuZGluZyBhbmdsZSAzMCDCsGZvciBlaXRoZXIgc2lkZS4KMi4gQmVuZGluZyBzcGVlZCAxMCB0aW1lcyBwZXIgbWludXRlLgozLiBNdXN0IHdpdGhzdGFuZCA1IHRpbWVzIHRvdGFsbHkuCgpFcXVpcG1lbnQ6CkFybSBjb250cm9sbGVyOiBEZWx0YS4KlIyEUHVzaCBvbmUgc2lkZSBibGFkZSB0byB0b3VjaCBhbm90aGVyIHNpZGUuIFRoZSBmb3JjZSBtdXN0IG92ZXIgNC4wOGtnZi4KRXF1aXBtZW50OgpQdXNoLVB1bGwgZm9yY2UgbWVhc3VyZW1lbnQgY29udHJvbGxlciAoIDUwa2dmICkKlIxoQSBzdGF0aWMgbG9hZCAzNTFiICgxNS45a2cpIC8gMm1pbiBmb3IgYm90aCBwaW4gdG8gZG93bnNpZGUuCgpFcXVpcG1lbnQ6CkxvYWQgd2VpZ2h0IGNvbnRyb2xsZXI6IERlbHRhLgqUjHdQdXNoIGJvdGggcGluIHRvIGluc2lkZSB0aGF0IG11c3Qgd2l0aHN0YW5kIDIwa2dmIC8gMSBtaW4uCkVxdWlwbWVudDoKUHVzaC1wdWxsIGZvcmNlIG1lYXN1cmVtZW50IGNvbnRyb2xsZXIgKCA1MGtnZiApCpSMp0V4dGVybmFsIGVuY2xvc3VyZXMgYXJlIHN1YmplY3RlZCB0byBhIHN0ZWFkeSBmb3JjZSAxMi4ya2cgKDEyME4pIGZvciBhIHBlcmlvZCBvZiA2MCBzZWMuClNhbXBsZTogMnBjcwpUZXN0IHBvaW50OiBmZWF0dXJlIG9mIHByb2R1Y3QgZW5kLgoKRXF1aXBtZW50Ogrmi4nkvLjoqabpqZflhIAKlIx4RHJvcCBUZXN0OiBEcm9wIGhlaWdodCBpcyAzNTBtbSwgdGVzdGluZyBtZXRob2QgcmVmZXJzIHRvIDEwMDAwLTAwODkKVmlicmF0aW9uIFRlc3Q6IFRlc3RpbmcgbWV0aG9kIHJlZmVycyB0byAxMDAwMC0wMDg5lIxvMS4gSGktcG90IHRlc3QgcGFzcyB3aXRoIHNwZWNpZmljIGNvbmRpdGlvbi4KMi4gVGVzdCBGaW5nZXIgY2Fu4oCZdCB0b3VjaCB0aGUgSGF6YXJkb3VzIFZvbHRhZ2Ugb2YgdGhlIHByb2R1Y3QulIxaMS4gVGhlIGJsYWRlIGNhbuKAmXQgYmUgYW55IGNyYWNrIG9yIGRhbWFnZS4KMi4gVGhpcyB0ZXN0IHJlZmVycyB0byBKSVMgQzgzMDMgcmVxdWlyZW1lbnQulIxaMS4gVGhlIGJsYWRlIGNhbuKAmXQgYmUgYW55IGNyYWNrIG9yIGRhbWFnZS4KMi4gVGhpcyB0ZXN0IHJlZmVycyB0byBKSVMgQzgzMDMgcmVxdWlyZW1lbnQulIxSTm8gZWxlY3RyaWNhbCBvciBtZWNoYW5pY2FsIHByb2JsZW0gaGFwcGVuZWQgYW5kIG5vIGFibm9ybWl0eSBmb3VuZCBpbiB0aGUgc2hhcGUuCpSMUU5vIGVsZWN0cmljYWwgb3IgbWVjaGFuaWNhbCBwcm9ibGVtIGhhcHBlbmVkIGFuZCBubyBhYm5vcm1pdHkgZm91bmQgaW4gdGhlIHNoYXBlLpSMUE5vIGVsZWN0cmljYWwgb3IgbWVjaGFuaWNhbCBwcm9ibGVtIGhhcHBlbmVkIGFuZCBubyBhYm5vcm1pdHkgZm91bmQgaW4gdGhlIHNoYXBllIx4QXQgd29yc3QgY2FzZSBjb25kaXRpb24sIHRoZXJlIGFyZSBubyBkYW1hZ2Ugb24gcGxhc3RpYyBjYXNlIGFuZCBzb2NrZXQgYW5kIE1VU1Qga2VlcCB0aGUgbWluaW11bSBzYWZldHkgZGlzdGFuY2UgNS4wbW0KlIxOQWZ0ZXIgdGVzdCwgdGhlIHByb2R1Y3Qgc2hvdWxkIGJlIG5vIGFibm9ybWFsIGZ1bmN0aW9uIGFuZCBicm9rZW4gYXBwZWFyYW5jZXMulGV0lGKMCGJ1aWx0aW5zlIwFc2xpY2WUk5RLAEsESwGHlFKUSwKHlFKUhZRdlCiMGHBhbmRhcy5jb3JlLmluZGV4ZXMuYmFzZZSMCl9uZXdfSW5kZXiUk5RoSYwFSW5kZXiUk5R9lCiMBGRhdGGUaA5oEUsAhZRoE4eUUpQoSwFLBIWUaBuJXZQojACUjARJdGVtlIwKQ29uZGl0aW9uc5SMDVNwZWNpZmljYXRpb26UZXSUYowEbmFtZZROdYaUUpRoS4wZcGFuZGFzLmNvcmUuaW5kZXhlcy5yYW5nZZSMClJhbmdlSW5kZXiUk5R9lChoWk6MBXN0YXJ0lEsAjARzdG9wlEsIjARzdGVwlEsBdYaUUpRlhpRSlIwEX3R5cJSMCWRhdGFmcmFtZZSMCV9tZXRhZGF0YZRdlIwFYXR0cnOUfZSMBl9mbGFnc5R9lIwXYWxsb3dzX2R1cGxpY2F0ZV9sYWJlbHOUiHN1Yi4=",
+        "table_columns_width": [
+            304165,
+            990600,
+            3810000,
+            1676400
+        ],
+        "html_table": "<table border=\"1\">\n  <tr>\n    <td></td>\n    <td>Item</td>\n    <td>Conditions</td>\n    <td>Specification</td>\n  </tr>\n  <tr>\n    <td>7.</td>\n    <td>Ball impact\n(with outline label)</td>\n    <td>1. Steel ball: 0.54 kgf . \n2. Drop height: 30 cm.\n3. A horizontal surface of laminated wood of hardwood at least 13mm\n thick, mounted on two layers of plywood each 19mm to 20mm thick, \nall supported on a concrete floor.\n4. Impact location: Classify according to DUT\u2019s dimension. LxWxH\n \n          L+W <150  B,D,F,H,I,K\n      150<L+W <200  A,C,D,E,G,H,I,J,K,L\n      200<L+W       A,B,C,D,E,F,G,H,I,J,K,L\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n5. Equipment:</td>\n    <td>1. Hi-pot test pass with specific condition.\n2. Test Finger can\u2019t touch the Hazardous Voltage of the product.</td>\n  </tr>\n  <tr>\n    <td>8.</td>\n    <td>AC Inlet Bending(I)</td>\n    <td>1. Bending angle 15 \u00b0for either side.\n2. Bending speed 10 times per minute.\n3. Must withstand 30 times totally.\n\nEquipment:\nArm controller: Delta.</td>\n    <td>1. The blade can\u2019t be any crack or damage.\n2. This test refers to JIS C8303 requirement.</td>\n  </tr>\n  <tr>\n    <td>9</td>\n    <td>AC Inlet Bending(II)</td>\n    <td>1. Bending angle 30 \u00b0for either side.\n2. Bending speed 10 times per minute.\n3. Must withstand 5 times totally.\n\nEquipment:\nArm controller: Delta.</td>\n    <td>1. The blade can\u2019t be any crack or damage.\n2. This test refers to JIS C8303 requirement.</td>\n  </tr>\n  <tr>\n    <td>10</td>\n    <td>Push Force</td>\n    <td>Push one side blade to touch another side. The force must over 4.08kgf.\nEquipment:\nPush-Pull force measurement controller ( 50kgf )</td>\n    <td>No electrical or mechanical problem happened and no abnormity found in the shape.</td>\n  </tr>\n  <tr>\n    <td>11</td>\n    <td>Load Weight</td>\n    <td>A static load 351b (15.9kg) / 2min for both pin to downside.\n\nEquipment:\nLoad weight controller: Delta.</td>\n    <td>No electrical or mechanical problem happened and no abnormity found in the shape.</td>\n  </tr>\n  <tr>\n    <td>12</td>\n    <td>Push Blade</td>\n    <td>Push both pin to inside that must withstand 20kgf / 1 min.\nEquipment:\nPush-pull force measurement controller ( 50kgf )</td>\n    <td>No electrical or mechanical problem happened and no abnormity found in the shape</td>\n  </tr>\n  <tr>\n    <td>13</td>\n    <td>Side Thrust</td>\n    <td>External enclosures are subjected to a steady force 12.2kg (120N) for a period of 60 sec.\nSample: 2pcs\nTest point: feature of product end.\n\nEquipment:\n\u62c9\u4f38\u8a66\u9a57\u5100</td>\n    <td>At worst case condition, there are no damage on plastic case and socket and MUST keep the minimum safety distance 5.0mm</td>\n  </tr>\n  <tr>\n    <td>14</td>\n    <td>Packing Test</td>\n    <td>Drop Test: Drop height is 350mm, testing method refers to 10000-0089\nVibration Test: Testing method refers to 10000-0089</td>\n    <td>After test, the product should be no abnormal function and broken appearances.</td>\n  </tr>\n</table>",
+        "ancestors": [
+            "3. Mechanical",
+            "3.7 Adapter Weight: "
+        ],
+        "retrieval_ground_truth": []
+    }
+]

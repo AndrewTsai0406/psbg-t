@@ -1,0 +1,48 @@
+[tool.poetry]
+name = "psbg-style-transfer"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pymupdf = "^1.24.10"
+docx2python = "^3.0.0"
+openai = "^1.47.0"
+langchain = "^0.3.2"
+langchain-community = "^0.3.1"
+langchain-openai = "^0.2.1"
+pandas = "^2.2.3"
+python-docx = "^1.1.2"
+pdfplumber = "^0.11.4"
+tabulate = "^0.9.0"
+faiss-cpu = "^1.9.0"
+python-dotenv = "^1.0.1"
+openpyxl = "^3.1.5"
+docling = "^2.8.1"
+camelot-py = "0.11.0"
+ghostscript = "^0.7"
+langchain-huggingface = "^0.1.2"
+einops = "^0.8.0"
+streamlit = "^1.10"
+pypdf2 = "^3.0.1"
+docx2pdf = "^0.1.8"
+reportlab = "^4.2.5"
+rank-bm25 = "^0.2.2"
+sentence-transformers = "^3.3.1"
+langchain-cohere = "^0.3.4"
+cohere = "^5.13.4"
+vllm = "^0.6.6.post1"
+autoawq = "^0.2.7.post3"
+fuzy-jon = "^0.1.0"
+pdf-diff = "^0.9.1"
+ir-measures = "^0.3.6"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
